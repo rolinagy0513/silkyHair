@@ -1,0 +1,66 @@
+.hair-types-section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.hair-types-section h2 {
+    font-size: 62px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hair-types-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hair-type-card {
+    background-color: #eae4e1;
+    padding: 40px 30px;
+    border-radius: 50px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hair-type-card h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #73655a;
+    font-weight: 500;
+}
+
+.hair-type-card p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #776c65;
+    opacity: 0.9;
+}
+
+/* Responsive Design for HairTypes */
+@media (max-width: 968px) {
+    .hair-types-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hair-type-card {
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 640px) {
+    .hair-types-section {
+        padding: 40px 20px;
+    }
+
+    .hair-type-card {
+        padding: 30px 20px;
+        border-radius: 30px;
+    }
+}
