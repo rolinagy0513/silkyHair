@@ -1,11 +1,11 @@
-import introductionSk from "../assets/IntroductionSk.png";
-import introductionHun from "../assets/introductionHun.png";
-import introductionEng from "../assets/introductionEng.png";
+import introductionSk from "../../assets/IntroductionSk.png";
+import introductionHun from "../../assets/introductionHun.png";
+import introductionEng from "../../assets/introductionEng.png";
 
 import "./styles/AboutUs.css"
 import {useContext} from "react";
-import {LanguageContext} from "../context/LanguageContext.jsx";
-import translations from "../utility/Trsanslations.js";
+import {LanguageContext} from "../../context/LanguageContext.jsx";
+import translations from "../../utility/Trsanslations.js";
 
 const AboutUs = () =>{
 
@@ -13,8 +13,6 @@ const AboutUs = () =>{
 
     const currentTranslations = translations[selectedLanguage] || translations.SK;
     const about = currentTranslations?.aboutUs || translations.SK.aboutUs;
-
-    //todo: Meg kell csinálni a text-et is ezen az oldalon, be kell rakni a HUN és ENG texteket
 
     let introduction;
 

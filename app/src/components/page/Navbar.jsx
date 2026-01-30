@@ -1,17 +1,17 @@
 import {useContext, useEffect} from "react";
-import {ProductsContext} from "../context/ProductsContext.jsx";
-import {LanguageContext} from "../context/LanguageContext.jsx";
+import {ProductsContext} from "../../context/ProductsContext.jsx";
+import {LanguageContext} from "../../context/LanguageContext.jsx";
 
-import translations from "../utility/Trsanslations.js";
+import translations from "../../utility/Trsanslations.js";
 
-import {scrollToSection} from "../utility/Scrolling.js";
+import {scrollToSection} from "../../utility/Scrolling.js";
 
 import "./styles/Navbar.css"
 
 const Navbar = () =>{
 
     const {isProductsOpen, setIsProductsOpen, productsRef} = useContext(ProductsContext);
-    const {selectedLanguage} = useContext(LanguageContext);
+    const {selectedLanguage, isMobileMenuOpen, setIsMobileMenuOpen} = useContext(LanguageContext);
 
     const currentTranslations = translations[selectedLanguage] || translations.SK;
     const menu = currentTranslations?.menu || translations.SK.menu;
@@ -23,12 +23,14 @@ const Navbar = () =>{
         e.preventDefault();
         scrollToSection(sectionId);
         setIsProductsOpen(false);
+        setIsMobileMenuOpen(false);
     };
 
     const handleProductClick = (index, e) => {
         e.preventDefault();
         scrollToSection(`product-${index}`);
         setIsProductsOpen(false);
+        setIsMobileMenuOpen(false);
     };
 
     useEffect(() => {
@@ -44,9 +46,21 @@ const Navbar = () =>{
         };
     }, []);
 
+    // Prevent body scroll when mobile menu is open
+    useEffect(() => {
+        if (isMobileMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [isMobileMenuOpen]);
+
     return(
         <nav className="main-nav">
-            <div className="nav-container">
+            <div className={`nav-container ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
                 <a
                     href="#about"
                     onClick={(e) => handleNavClick('about', e)}

@@ -1,17 +1,17 @@
 import {LanguageProvider} from "./context/LanguageContext.jsx";
 import {ProductsProvider} from "./context/ProductsContext.jsx";
 
-import Header from "./components/Header.jsx";
-import Navbar from "./components/Navbar.jsx";
-import Introduction from "./components/Introduction.jsx";
-import AboutUs from "./components/AboutUs.jsx";
-import ContactUs from "./components/ContactUs.jsx";
-import Footer from "./components/Footer.jsx";
+import Header from "./components/page/Header.jsx";
+import Navbar from "./components/page/Navbar.jsx";
+import Introduction from "./components/page/Introduction.jsx";
+import AboutUs from "./components/page/AboutUs.jsx";
+import ContactUs from "./components/page/ContactUs.jsx";
+import Footer from "./components/page/Footer.jsx";
 
-import HairTypes from "./components/HairTypes.jsx";
-import Products from "./components/Products.jsx";
-import BeforeAfter from "./components/BeforeAfter.jsx";
-import ScrollAnimatedSection from "./components/ScrollAnimatedSection.jsx"
+import HairTypes from "./components/page/HairTypes.jsx";
+import Products from "./components/page/Products.jsx";
+import BeforeAfter from "./components/page/BeforeAfter.jsx";
+import ScrollAnimatedSection from "./components/page/ScrollAnimatedSection.jsx"
 
 import "./App.css"
 
@@ -25,6 +25,7 @@ function App() {
             <Header/>
             <Navbar/>
             <Introduction/>
+
             <ScrollAnimatedSection id="about">
               <AboutUs/>
             </ScrollAnimatedSection>
@@ -46,6 +47,7 @@ function App() {
             </ScrollAnimatedSection>
 
             <Footer/>
+
           </div>
         </ProductsProvider>
       </LanguageProvider>

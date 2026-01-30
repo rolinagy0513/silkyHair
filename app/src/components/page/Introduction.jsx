@@ -1,9 +1,9 @@
-import profile from "../assets/profile.png";
-import name from "../assets/name.png";
+import profile from "../../assets/profile.png";
+import name from "../../assets/name.png";
 
 import {useContext} from "react";
-import {LanguageContext} from "../context/LanguageContext.jsx";
-import translations from "../utility/Trsanslations.js";
+import {LanguageContext} from "../../context/LanguageContext.jsx";
+import translations from "../../utility/Trsanslations.js";
 
 import "./styles/Introduction.css"
 

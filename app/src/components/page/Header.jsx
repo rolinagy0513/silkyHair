@@ -1,8 +1,8 @@
 import {useContext, useEffect} from "react";
 
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png";
 
-import {LanguageContext} from "../context/LanguageContext.jsx";
+import {LanguageContext} from "../../context/LanguageContext.jsx";
 
 import "./styles/Header.css"
 
@@ -11,7 +11,8 @@ const Header  = () =>{
     const {
         isLanguageOpen, setIsLanguageOpen,
         selectedLanguage, setSelectedLanguage,
-        languages, languageRef
+        languages, languageRef,
+        isMobileMenuOpen, setIsMobileMenuOpen
     } = useContext(LanguageContext);
 
 
@@ -42,6 +43,15 @@ const Header  = () =>{
                 <img src={logo} alt="Logo" />
             </div>
             <div className="header-right">
+                <button
+                    className={`hamburger ${isMobileMenuOpen ? 'active' : ''}`}
+                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    aria-label="Toggle menu"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
 
                 <div className="language-selector" ref={languageRef}>
                     <button
