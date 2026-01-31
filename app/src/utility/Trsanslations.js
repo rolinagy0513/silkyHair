@@ -57,6 +57,7 @@ const translations = {
             product7:"Pramene vlasov - keratínové alebo trubičkové spoje",
             product8:"Vzorkovinky farieb Invisible tape",
             product9:"Vlasová kozmetika",
+            comingSoonText: "Čoskoro!"
         },
         beforeAfter:{
             title: "Pred a po",
@@ -130,6 +131,7 @@ const translations = {
             product7:"Keratin or microring hair",
             product8:"Hair color chart for Invisible tape",
             product9:"Hair cosmetics",
+            comingSoonText: "Coming soon!"
         },
         beforeAfter:{
             title: "Before After",
@@ -204,6 +206,7 @@ const translations = {
             product7:"Póthajak U-Tip vagy I-Tip",
             product8:"Színminta Invisible tape",
             product9:"Hajápolási termékek",
+            comingSoonText: "Hamarosan!"
         },
         beforeAfter:{
             title: "Előtte-Utána",

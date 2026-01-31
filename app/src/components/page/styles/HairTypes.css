@@ -43,7 +43,6 @@
     opacity: 0.9;
 }
 
-/* Responsive Design for HairTypes */
 @media (max-width: 968px) {
     .hair-types-grid {
         grid-template-columns: 1fr;
@@ -52,6 +51,11 @@
     .hair-type-card {
         border-radius: 40px;
     }
+
+    .hair-types-section h2 {
+        font-size: 52px;
+    }
+
 }
 
 @media (max-width: 640px) {
@@ -63,4 +67,9 @@
         padding: 30px 20px;
         border-radius: 30px;
     }
+
+    .hair-types-section h2 {
+        font-size: 42px;
+    }
+
 }

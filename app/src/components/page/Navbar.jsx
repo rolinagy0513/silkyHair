@@ -7,11 +7,12 @@ import translations from "../../utility/Trsanslations.js";
 import {scrollToSection} from "../../utility/Scrolling.js";
 
 import "./styles/Navbar.css"
+import NaturalHairModal from "../modal/NaturalHairModal.jsx";
 
 const Navbar = () =>{
 
     const {isProductsOpen, setIsProductsOpen, productsRef} = useContext(ProductsContext);
-    const {selectedLanguage, isMobileMenuOpen, setIsMobileMenuOpen} = useContext(LanguageContext);
+    const {selectedLanguage, isMobileMenuOpen, setIsMobileMenuOpen, setIsModalOpen} = useContext(LanguageContext);
 
     const currentTranslations = translations[selectedLanguage] || translations.SK;
     const menu = currentTranslations?.menu || translations.SK.menu;
@@ -28,7 +29,14 @@ const Navbar = () =>{
 
     const handleProductClick = (index, e) => {
         e.preventDefault();
-        scrollToSection(`product-${index}`);
+        // Check if this is the first product (natural hair)
+        if (index === 0) {
+            // Open the NaturalHairModal instead of scrolling
+            setIsModalOpen(true);
+        } else {
+            // For other products, scroll to their section as normal
+            scrollToSection(`product-${index}`);
+        }
         setIsProductsOpen(false);
         setIsMobileMenuOpen(false);
     };
@@ -46,7 +54,6 @@ const Navbar = () =>{
         };
     }, []);
 
-    // Prevent body scroll when mobile menu is open
     useEffect(() => {
         if (isMobileMenuOpen) {
             document.body.style.overflow = 'hidden';

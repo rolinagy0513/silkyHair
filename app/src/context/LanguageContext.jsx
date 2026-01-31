@@ -8,6 +8,8 @@ export const LanguageProvider = ({ children }) => {
     const [selectedLanguage, setSelectedLanguage] = useState('SK');
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+    const[isModalOpen, setIsModalOpen] = useState(false);
+
     const languages = [
         { code: 'SK', name: 'Slovenčina' },
         { code: 'ENG', name: 'English' },
@@ -15,7 +17,7 @@ export const LanguageProvider = ({ children }) => {
     ];
 
 
-    //todo: Ha a menü meg van nyitba movile view-ban akkor kitakarja a hamburgert, túl nagyok a textek a mobile view-ban, kell placeholder az üres képekre
+    //todo: Túl nagyok a textek a mobile view-ban, kell placeholder az üres képekre
     //todo: Modal a productoknak, language selectorral.
 
     const languageRef = useRef(null);
@@ -25,7 +27,8 @@ export const LanguageProvider = ({ children }) => {
             isLanguageOpen, setIsLanguageOpen,
             selectedLanguage, setSelectedLanguage,
             languages, languageRef,
-            isMobileMenuOpen, setIsMobileMenuOpen
+            isMobileMenuOpen, setIsMobileMenuOpen,
+            isModalOpen, setIsModalOpen
         }}>
             {children}
         </LanguageContext.Provider>

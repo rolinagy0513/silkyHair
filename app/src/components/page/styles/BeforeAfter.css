@@ -74,22 +74,31 @@
     letter-spacing: 0.5px;
 }
 
-/* Responsive Design for Before/After */
 @media (max-width: 968px) {
+
     .before-after-grid {
         grid-template-columns: 1fr;
         max-width: 400px;
         gap: 30px;
     }
+
+    .before-after-section h2{
+        font-size: 52px;
+    }
 }
 
 @media (max-width: 640px) {
+
     .before-after-section {
         padding: 40px 20px;
     }
 
+    .before-after-section h2{
+        font-size: 42px;
+    }
+
     .ba-image {
-        height: 250px;
+        height: 400px;
     }
 
     .ba-image::before {

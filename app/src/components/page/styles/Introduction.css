@@ -57,7 +57,7 @@
 }
 
 .profile-description p {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.8;
     margin-bottom: 25px;
     color: #fff;
@@ -71,7 +71,7 @@
     color: #f5e9e0;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1200px) {
     .profile-container {
         grid-template-columns: 1fr 1.5fr;
@@ -79,7 +79,7 @@
     }
 
     .profile-description p {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 1.7;
     }
 }
@@ -110,7 +110,7 @@
     }
 
     .profile-description p {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 1.6;
         margin-bottom: 20px;
     }
@@ -138,7 +138,7 @@
     }
 
     .profile-description p {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 1.6;
         margin-bottom: 18px;
     }

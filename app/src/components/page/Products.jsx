@@ -23,7 +23,7 @@ const Products = () =>{
 
     return(
         <section id="products" className="products-section">
-            <h2>{products.productTitle}</h2>
+            <h2>{products.productTitle}:</h2>
             <div className="products-grid">
                 <div className="product-card">
                     <div className="product-image">
@@ -62,7 +62,7 @@ const Products = () =>{
                     <h3>{products.product6}</h3>
                 </div>
                 <div className="product-card">
-                    <div className="product-image"></div>
+                    <div className="product-image"><span className="coming-soon-text">{products.comingSoonText}</span></div>
                     <h3>{products.product7}</h3>
                 </div>
                 <div className="product-card">
@@ -72,7 +72,7 @@ const Products = () =>{
                     <h3>{products.product8}</h3>
                 </div>
                 <div className="product-card">
-                    <div className="product-image"></div>
+                    <div className="product-image"><span className="coming-soon-text">{products.comingSoonText}</span></div>
                     <h3>{products.product9}</h3>
                 </div>
             </div>

@@ -25,7 +25,6 @@
     gap: 20px;
 }
 
-/* Hamburger Menu */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -202,6 +201,19 @@
         left: auto;
         margin-top: 10px;
     }
+
+    .language-selector{
+        position: static;
+    }
+
+    .language-dropdown {
+        position: fixed;
+        top: 100px;
+        right: 20px;
+        left: auto;
+        margin-top: 0;
+        z-index: 1002;
+    }
 }
 
 @media (max-width: 640px) {
@@ -243,7 +255,8 @@
     }
 
     .language-dropdown {
-        min-width: 150px;
+        top: 90px;
         right: 10px;
+        min-width: 150px;
     }
 }
