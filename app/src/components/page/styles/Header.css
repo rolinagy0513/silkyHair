@@ -182,6 +182,8 @@
     .header {
         grid-template-columns: 1fr auto;
         gap: 0;
+        position: relative;
+        z-index: 1001; /* Ensure header is above the nav menu */
     }
 
     .header-right {
@@ -192,6 +194,8 @@
     .hamburger {
         display: flex;
         order: -1;
+        position: relative;
+        z-index: 1003;
     }
 
     .language-dropdown {

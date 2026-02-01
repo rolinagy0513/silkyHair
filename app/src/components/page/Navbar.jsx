@@ -8,11 +8,13 @@ import {scrollToSection} from "../../utility/Scrolling.js";
 
 import "./styles/Navbar.css"
 import NaturalHairModal from "../modal/NaturalHairModal.jsx";
+import {ModalContext} from "../../context/ModalContext.jsx";
 
 const Navbar = () =>{
 
     const {isProductsOpen, setIsProductsOpen, productsRef} = useContext(ProductsContext);
-    const {selectedLanguage, isMobileMenuOpen, setIsMobileMenuOpen, setIsModalOpen} = useContext(LanguageContext);
+    const {selectedLanguage, isMobileMenuOpen, setIsMobileMenuOpen} = useContext(LanguageContext);
+    const {setIsNaturalHairModalOpen, setIsClipTopModalOpen} = useContext(ModalContext);
 
     const currentTranslations = translations[selectedLanguage] || translations.SK;
     const menu = currentTranslations?.menu || translations.SK.menu;
@@ -29,12 +31,13 @@ const Navbar = () =>{
 
     const handleProductClick = (index, e) => {
         e.preventDefault();
-        // Check if this is the first product (natural hair)
         if (index === 0) {
-            // Open the NaturalHairModal instead of scrolling
-            setIsModalOpen(true);
-        } else {
-            // For other products, scroll to their section as normal
+          setIsNaturalHairModalOpen(true)
+        }
+        if (index === 1){
+            setIsClipTopModalOpen(true)
+        }
+        else {
             scrollToSection(`product-${index}`);
         }
         setIsProductsOpen(false);

@@ -1,5 +1,4 @@
-import {LanguageContext, LanguageProvider} from "./context/LanguageContext.jsx";
-import {ProductsProvider} from "./context/ProductsContext.jsx";
+import {useContext} from "react";
 
 import Header from "./components/page/Header.jsx";
 import Navbar from "./components/page/Navbar.jsx";
@@ -13,17 +12,21 @@ import Products from "./components/page/Products.jsx";
 import BeforeAfter from "./components/page/BeforeAfter.jsx";
 import ScrollAnimatedSection from "./components/page/ScrollAnimatedSection.jsx"
 
-import "./App.css"
-import {useContext} from "react";
 import NaturalHairModal from "./components/modal/NaturalHairModal.jsx";
+import {ModalContext} from "./context/ModalContext.jsx";
+
+import "./App.css"
+import ClipTopModal from "./components/modal/ClipTopModal.jsx";
 
 function App() {
 
-  //todo: bug ha a modal meg van nyitva mobil-on akkor overlapolôja a hamburger menüt. Meg túl nagy a mobilon a modal és ott még a menü is szarul néz ki.
-  //todo: többi modal.
-  //todo: más state nevek más contextben.
+    //todo: Le kell momdani az adobe subscription-t is szóval valami prinstrceen-ek kellenek meg a képek a modal-ok ból.
+   //todo: ClipTopModal még nem jó minden media weidth-en szóval azt meg kell változtatni
+  //todo: Többi modal mehet ugyan úgy aztán language selector ezekhez mind
 
-  const {isModalOpen} = useContext(LanguageContext);
+
+
+  const {isNaturalHairModalOpen, isClipTopModalOpen} = useContext(ModalContext);
 
   return (
 
@@ -53,9 +56,13 @@ function App() {
               <ContactUs/>
             </ScrollAnimatedSection>
 
-            {isModalOpen &&(
+            {isNaturalHairModalOpen &&(
                 <NaturalHairModal/>
             )}
+
+           {isClipTopModalOpen &&(
+               <ClipTopModal/>
+           )}
 
             <Footer/>
 

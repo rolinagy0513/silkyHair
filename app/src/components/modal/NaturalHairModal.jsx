@@ -1,4 +1,5 @@
-import React, {useContext} from "react";
+import React, {useContext, useEffect} from "react";
+
 import title from "../../assets/NaturalHairTitle.png";
 import product1 from "../../assets/NaturalHairModalImage1.png";
 import product2 from "../../assets/NaturalHairModalImage2.png";
@@ -6,14 +7,16 @@ import product3 from "../../assets/NaturalHairModalImage3.png";
 import product4 from "../../assets/NaturalHairModalImage4.png";
 import product5 from "../../assets/NaturalHairModalImage5.png";
 import product6 from "../../assets/NaturalHairModalImage6.png";
+
+import {ModalContext} from "../../context/ModalContext.jsx";
+
 import "./styles/NaturalHairModal.css";
-import {LanguageContext} from "../../context/LanguageContext.jsx";
 
 const NaturalHairModal = () => {
 
-    const {isModalOpen, setIsModalOpen} = useContext(LanguageContext);
+    const{isNaturalHairModalOpen, setIsNaturalHairModalOpen} = useContext(ModalContext)
 
-    if (!isModalOpen) return null;
+    if (!isNaturalHairModalOpen) return null;
 
     const modalText = "V ponuke máme široký výber Európskych aj Ruských vlasov najvyššej kvality. Rôznych druhov, od rovných cez vlnité až po kučenavé. V rôznych dĺžkach a farbách, od prírodných odtieňov až po farbené. Všetky zvážky vlasov sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov.";
 
@@ -26,31 +29,43 @@ const NaturalHairModal = () => {
         { id: 6, src: product6, alt: "Natural Hair Product 6" },
     ];
 
+    useEffect(() => {
+        if (isNaturalHairModalOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [isNaturalHairModalOpen]);
+
     return (
-        <div className="modal-overlay" onClick={()=>setIsModalOpen(false)}>
-            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                {/* Close button in top left corner */}
-                <button className="close-button" onClick={()=> setIsModalOpen(false)}>
-                    <span className="close-icon">✕</span>
+        <div className="nh-modal-overlay" onClick={()=>setIsNaturalHairModalOpen(false)}>
+            <div className="nh-modal-content" onClick={(e) => e.stopPropagation()}>
+
+                <button className="nh-close-button" onClick={()=> setIsNaturalHairModalOpen(false)}>
+                    <span className="nh-close-icon">✕</span>
                 </button>
 
-                <div className="modal-body">
-                    <div className="left-content">
-                        <div className="modal-title">
-                            <img src={title} alt="Natural Hair" className="title-image" />
+                <div className="nh-modal-body">
+                    <div className="nh-left-content">
+                        <div className="nh-modal-title">
+                            <img src={title} alt="Natural Hair" className="nh-title-image" />
                         </div>
 
-                        <div className="text-content">
+                        <div className="nh-text-content">
                             <p>{modalText}</p>
                         </div>
                     </div>
 
-                    <div className="right-content">
-                        <div className="image-grid">
+                    <div className="nh-right-content">
+                        <div className="nh-image-grid">
                             {productImages.map((product) => (
                                 <div
                                     key={product.id}
-                                    className="grid-item"
+                                    className="nh-grid-item"
                                 >
                                     <img src={product.src} alt={product.alt} />
                                 </div>

@@ -10,22 +10,24 @@
     margin: 0 auto;
     padding: 0 40px;
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
 }
 
 .main-nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    padding: 8px 16px;
+    padding: 8px 12px;
     border-radius: 4px;
     transition: all 0.3s ease;
     position: relative;
+    flex: 0 1 auto;
+    white-space: nowrap;
 }
 
 .main-nav a:hover {
@@ -52,17 +54,19 @@
 .nav-dropdown {
     position: relative;
     display: inline-block;
+    flex: 0 1 auto;
+    white-space: nowrap;
 }
 
 .nav-dropdown-toggle {
     background: transparent;
     border: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    padding: 8px 16px;
+    padding: 8px 12px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -94,6 +98,7 @@
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     min-width: 280px;
+    max-width: 350px;
     margin-top: 8px;
     overflow: hidden;
     z-index: 1002;
@@ -112,6 +117,9 @@
     transition: all 0.2s ease;
     text-align: left;
     letter-spacing: 0.3px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .product-category:last-child {
@@ -129,9 +137,22 @@
     animation: fadeInDown 0.2s ease-out;
 }
 
+@media (min-width: 1200px) {
+    .main-nav a {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .nav-dropdown-toggle {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
 @media (max-width: 968px) {
     .main-nav {
         position: relative;
+        margin-top: 0;
     }
 
     .nav-container {
@@ -145,18 +166,28 @@
         justify-content: flex-start;
         align-items: center;
         gap: 0;
+        /* Increased top padding to prevent items under header */
         padding: 120px 20px 40px;
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out, visibility 0s linear 0.3s;
         overflow-y: auto;
-        z-index: 999;
+        overflow-x: hidden;
+        z-index: 1000;
         visibility: hidden;
+        box-sizing: border-box;
+        -webkit-overflow-scrolling: touch;
     }
 
+    /* Alternative: Use CSS variable or calculate dynamically */
     .nav-container.mobile-open {
         transform: translateX(0);
         visibility: visible;
         transition: transform 0.3s ease-in-out, visibility 0s linear 0s;
+    }
+
+    /* Add extra spacing for the first item */
+    .nav-container > *:first-child {
+        margin-top: 10px;
     }
 
     .main-nav a,
@@ -164,22 +195,34 @@
         width: 100%;
         max-width: 400px;
         text-align: center;
+        opacity: 1;
+        visibility: visible;
+        display: block !important;
     }
 
     .main-nav a {
-        font-size: 18px;
+        font-size: 16px;
         padding: 16px 24px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        white-space: normal;
     }
 
     .main-nav a::after {
         display: none;
     }
 
+    .nav-dropdown {
+        position: static;
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        white-space: normal;
+    }
+
     .nav-dropdown-toggle {
         width: 100%;
         max-width: 400px;
-        font-size: 18px;
+        font-size: 16px;
         padding: 16px 24px;
         justify-content: center;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -189,16 +232,24 @@
         position: static;
         width: 100%;
         max-width: 400px;
-        margin: 0;
         border: none;
         border-radius: 0;
         background: rgba(0, 0, 0, 0.2);
+        box-shadow: none;
+        animation: none;
+        box-sizing: border-box;
+        display: block !important;
+        max-height: none;
     }
 
     .product-category {
-        font-size: 16px;
-        padding: 14px 24px;
+        font-size: 14px;
+        padding: 12px 24px;
         text-align: center;
+        white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
     }
 
     .product-category:hover {
@@ -206,37 +257,54 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     .nav-container {
-        padding: 100px 15px 30px;
+        /* Even more padding for smaller screens */
+        padding: 130px 20px 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-container {
+        /* Maximum padding for the problematic 600px range */
+        padding: 140px 15px 30px;
+    }
+
+    /* Make first item even more visible */
+    .nav-container > *:first-child {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-container {
+        padding: 100px 10px 20px;
+        overflow-x: hidden;
     }
 
     .main-nav a,
-    .nav-dropdown {
+    .nav-dropdown,
+    .nav-dropdown-toggle,
+    .products-dropdown {
         max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .main-nav a {
-        font-size: 16px;
-        padding: 14px 20px;
+        font-size: 14px;
+        padding: 14px 16px;
     }
 
     .nav-dropdown-toggle {
-        max-width: 100%;
-        font-size: 16px;
-        padding: 14px 20px;
-    }
-
-    .products-dropdown {
-        max-width: 100%;
+        font-size: 14px;
+        padding: 14px 16px;
     }
 
     .product-category {
-        font-size: 14px;
-        padding: 12px 20px;
-    }
-
-    .product-category:hover {
-        padding-left: 20px;
+        font-size: 12px;
+        padding: 10px 16px;
+        white-space: normal;
+        word-break: break-word;
     }
 }

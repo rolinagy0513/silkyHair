@@ -1,5 +1,5 @@
-/* NaturalHairModal.css */
-.nh-modal-overlay {
+/* ClipTopModal.css */
+.ct-modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,34 +11,34 @@
     align-items: center;
     z-index: 2000; /* Increased z-index to be above mobile menu */
     padding: 20px;
-    animation: nh-fadeIn 0.3s ease-out;
+    animation: ct-fadeIn 0.3s ease-out;
 }
 
-@keyframes nh-fadeIn {
+@keyframes ct-fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
-.nh-modal-content {
+.ct-modal-content {
     background-color: #6B5D54FF;
     border-radius: 12px;
     width: 100%;
     max-width: 1000px;
-    max-height: 90vh;
+    max-height: 100vh;
     overflow-y: auto;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    animation: nh-slideUp 0.4s ease-out;
+    animation: ct-slideUp 0.4s ease-out;
     position: relative;
     padding: 20px;
 }
 
-@keyframes nh-slideUp {
+@keyframes ct-slideUp {
     from { transform: translateY(30px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
 }
 
 /* Close button in top left corner */
-.nh-close-button {
+.ct-close-button {
     position: absolute;
     top: 15px;
     left: 15px;
@@ -57,22 +57,22 @@
     z-index: 10;
 }
 
-.nh-close-button:hover {
+.ct-close-button:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: #f0e6d2;
 }
 
-.nh-close-icon {
+.ct-close-icon {
     line-height: 1;
 }
 
-.nh-modal-body {
+.ct-modal-body {
     display: flex;
     padding: 40px 20px 20px;
     gap: 40px;
 }
 
-.nh-left-content {
+.ct-left-content {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -82,21 +82,21 @@
     padding-top: 10px;
 }
 
-.nh-modal-title {
+.ct-modal-title {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
-.nh-title-image {
+.ct-title-image {
     max-height: 80px;
     width: auto;
     margin: 0 auto;
     display: block;
 }
 
-.nh-text-content {
+.ct-text-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,31 +104,32 @@
     width: 100%;
 }
 
-.nh-text-content p {
+.ct-text-content p {
     line-height: 1.7;
     color: #f0e6d2;
     font-size: 17px;
     text-align: center;
     margin: 0;
     max-width: 90%;
+    white-space: pre-line;
 }
 
-.nh-right-content {
+.ct-right-content {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.nh-image-grid {
+.ct-image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     width: 100%;
 }
 
-.nh-grid-item {
-    height: 180px;
+.ct-grid-item {
+    height: 235px;
     border-radius: 8px;
     overflow: hidden;
     background-color: #f5f5f5;
@@ -139,73 +140,73 @@
     transition: all 0.3s ease;
 }
 
-.nh-grid-item:hover {
+.ct-grid-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.nh-grid-item img {
+.ct-grid-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 @media (max-width: 900px) {
-    .nh-modal-body {
+    .ct-modal-body {
         flex-direction: column;
         padding: 40px 20px 20px;
         gap: 40px;
     }
 
-    .nh-left-content {
+    .ct-left-content {
         order: 1;
         gap: 30px;
     }
 
-    .nh-right-content {
+    .ct-right-content {
         order: 2;
     }
 
-    .nh-title-image {
+    .ct-title-image {
         max-height: 70px;
     }
 
-    .nh-image-grid {
+    .ct-image-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .nh-grid-item {
+    .ct-grid-item {
         height: 150px;
     }
 
 }
 
 @media (max-width: 768px) {
-    .nh-modal-content {
+    .ct-modal-content {
         max-width: 95%;
         padding: 15px;
     }
 
-    .nh-image-grid {
+    .ct-image-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .nh-grid-item {
+    .ct-grid-item {
         height: 110px;
     }
 
-    .nh-text-content p {
+    .ct-text-content p {
         font-size: 16px;
     }
 }
 
 @media (max-width: 480px) {
-    .nh-modal-body {
+    .ct-modal-body {
         padding: 30px 10px 15px;
         gap: 30px;
     }
 
-    .nh-close-button {
+    .ct-close-button {
         top: 10px;
         left: 10px;
         width: 36px;
@@ -213,26 +214,26 @@
         font-size: 24px;
     }
 
-    .nh-title-image {
+    .ct-title-image {
         max-height: 50px;
     }
 
-    .nh-image-grid {
+    .ct-image-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
     }
 
-    .nh-grid-item {
+    .ct-grid-item {
         height: 90px;
     }
 
-    .nh-text-content p {
+    .ct-text-content p {
         font-size: 15px;
         line-height: 1.6;
         max-width: 100%;
     }
 
-    .nh-left-content {
+    .ct-left-content {
         gap: 25px;
     }
 }
