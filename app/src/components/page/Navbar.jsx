@@ -1,20 +1,26 @@
 import {useContext, useEffect} from "react";
+
 import {ProductsContext} from "../../context/ProductsContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
+import {ModalContext} from "../../context/ModalContext.jsx";
 
 import translations from "../../utility/Trsanslations.js";
-
 import {scrollToSection} from "../../utility/Scrolling.js";
 
 import "./styles/Navbar.css"
-import NaturalHairModal from "../modal/NaturalHairModal.jsx";
-import {ModalContext} from "../../context/ModalContext.jsx";
 
 const Navbar = () =>{
 
     const {isProductsOpen, setIsProductsOpen, productsRef} = useContext(ProductsContext);
     const {selectedLanguage, isMobileMenuOpen, setIsMobileMenuOpen} = useContext(LanguageContext);
-    const {setIsNaturalHairModalOpen, setIsClipTopModalOpen} = useContext(ModalContext);
+
+    const {
+        setIsNaturalHairModalOpen, setIsClipTopModalOpen,
+        setIsBangsModalOpen, setIsClipInModalOpen,
+        setIsInvisibleTapeModalOpen,setIsBraidsModalOpen,
+        setIsKeratinModalOpen, setIsChartModalOpen,
+        setIsCosmeticsModalOpen,
+    } = useContext(ModalContext);
 
     const currentTranslations = translations[selectedLanguage] || translations.SK;
     const menu = currentTranslations?.menu || translations.SK.menu;
@@ -36,6 +42,27 @@ const Navbar = () =>{
         }
         if (index === 1){
             setIsClipTopModalOpen(true)
+        }
+        if (index === 2){
+            setIsClipInModalOpen(true)
+        }
+        if (index === 3){
+            setIsInvisibleTapeModalOpen(true)
+        }
+        if (index === 4){
+            setIsBangsModalOpen(true)
+        }
+        if (index === 5){
+            setIsBraidsModalOpen(true)
+        }
+        if (index === 6){
+            setIsKeratinModalOpen(true)
+        }
+        if (index === 7){
+            setIsChartModalOpen(true)
+        }
+        if (index === 8){
+            setIsCosmeticsModalOpen(true)
         }
         else {
             scrollToSection(`product-${index}`);

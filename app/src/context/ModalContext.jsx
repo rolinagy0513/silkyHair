@@ -1,4 +1,4 @@
-import {useState, createContext, useRef} from "react";
+import {useState, createContext} from "react";
 
 export const ModalContext = createContext();
 
@@ -11,6 +11,8 @@ export const ModalProvider = ({ children }) => {
     const[isClipInModalOpen, setIsClipInModalOpen] = useState(false);
     const[isClipTopModalOpen, setIsClipTopModalOpen] = useState(false);
     const[isInvisibleTapeModalOpen, setIsInvisibleTapeModalOpen] = useState(false);
+    const[isChartModalOpen, setIsChartModalOpen] = useState(false);
+    const[isCosmeticsModalOpen, setIsCosmeticsModalOpen] = useState(false);
 
 
     return (
@@ -21,7 +23,9 @@ export const ModalProvider = ({ children }) => {
             isKeratinModalOpen, setIsKeratinModalOpen,
             isClipInModalOpen, setIsClipInModalOpen,
             isClipTopModalOpen, setIsClipTopModalOpen,
-            isInvisibleTapeModalOpen, setIsInvisibleTapeModalOpen
+            isInvisibleTapeModalOpen, setIsInvisibleTapeModalOpen,
+            isChartModalOpen, setIsChartModalOpen,
+            isCosmeticsModalOpen, setIsCosmeticsModalOpen
         }}>
             {children}
         </ModalContext.Provider>

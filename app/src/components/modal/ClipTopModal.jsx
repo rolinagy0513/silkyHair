@@ -1,6 +1,8 @@
 import React, {useContext, useEffect} from "react";
 
-import title from "../../assets/ClipTopModalTitle.png";
+import titleDual from "../../assets/ClipTopTitleSK-ENG.png";
+import titleHUN from "../../assets/ClipTopTitleHUN.png";
+
 import product1 from "../../assets/ClipTopModalImage1.png";
 import product2 from "../../assets/ClipTopModalImage2.png";
 import product3 from "../../assets/ClipTopModalImage3.png";
@@ -9,24 +11,29 @@ import product5 from "../../assets/ClipTopModalImage5.png";
 import product6 from "../../assets/ClipTopModalImage6.png";
 
 import {ModalContext} from "../../context/ModalContext.jsx";
+import {LanguageContext} from "../../context/LanguageContext.jsx";
+
+import translations from "../../utility/Trsanslations.js";
 
 import "./styles/ClipTopModal.css";
 
 const ClipTopModal = () => {
 
     const{isClipTopModalOpen, setIsClipTopModalOpen} = useContext(ModalContext);
+    const {selectedLanguage} = useContext(LanguageContext);
 
-    if (!isClipTopModalOpen) return null;
+    const currentTranslations = translations[selectedLanguage] || translations.SK;
+    const modalText = currentTranslations?.modal.clipTop || translations.SK.modal.clipTop;
 
-    const modalText = `Clip top je inovatívny vlasový doplnok určený ženám, ktoré riešia rednutie alebo vypadávanie vlasov - Alopéciu v oblasti temena, no aj problémy s riedkymi a jemnými vlasmi.
+    let title;
 
-Pomáha zakryť problematické miesta a zároveň dodáva vlasom objem a prirodzený vzhľad, pričom je priedušný, pokožka sa na hlave nepotí. Je pohodlný na nosenie, ľahko sa používa a dokonale splynie s vlastným vlasmi.
-
-Vďaka nemu môžete rýchlo a bez námahy vylepšiť svoj vzhľad za pár sekúnd a cítiť sa sebavedomejšie.
-
-Clip Top ponúkame v rózných farbách a variantoch, vďaka čomu si každá žena vie vybrať to, čo jej najviac vyhovuje.
-
-Pomocou nenápadných klipov sa ľahko a rýchlo aplikuje a je vyrobený z kvalitných ľudských vlasov, ktoré môžete upravovať fúkaním, žehlením aj natáčaním. Je ideálnym riešením aj v dňoch, keď chcete vyzerať upravene bez umývania vlasov.`;
+    if (selectedLanguage === "SK" || selectedLanguage === "ENG"){
+        title = titleDual
+    }else if (selectedLanguage === "HUN"){
+        title = titleHUN;
+    }else{
+        title = titleDual;
+    }
 
     const productImages = [
         { id: 1, src: product1, alt: "Clip Top Product 1" },
@@ -49,6 +56,9 @@ Pomocou nenápadných klipov sa ľahko a rýchlo aplikuje a je vyrobený z kvali
         };
     }, [isClipTopModalOpen]);
 
+    if (!isClipTopModalOpen) return null;
+
+
     return (
         <div className="ct-modal-overlay" onClick={()=>setIsClipTopModalOpen(false)}>
             <div className="ct-modal-content" onClick={(e) => e.stopPropagation()}>
@@ -63,7 +73,7 @@ Pomocou nenápadných klipov sa ľahko a rýchlo aplikuje a je vyrobený z kvali
                         </div>
 
                         <div className="ct-text-content">
-                            <p>{modalText}</p>
+                            <p>{modalText.text}</p>
                         </div>
                     </div>
 

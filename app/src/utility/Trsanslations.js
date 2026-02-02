@@ -14,8 +14,9 @@ const translations = {
                 bang: "Ofiny",
                 braids: "Copy na suchý zips a šnúrku",
                 keratinOrMicroringHair: "Pramene vlasov",
-                chart: "Vlasová kozmetika",
-                cosmetics: "Vzorkovinky farieb invisibletape"
+                chart: "Vzorkovinky farieb invisibletape",
+                cosmetics: " Vlasová kozmetika"
+
             }
         },
         introduction:{
@@ -68,6 +69,49 @@ const translations = {
         contacts:{
             title:"Kontakt:",
             invoice:"Fakturačné údaje:",
+        },
+        modal:{
+            naturalHair:{
+                text: "V ponuke máme široký výber Európskych aj Ruských vlasov najvyššej kvality. Rôznych druhov, od rovných cez vlnité až po kučeravé.\n\nV rôznych dĺžkach a farbách, od prírodných odtieňov až po farbené. Všetky zväzky vlasov sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov.",
+            },
+            clipTop:{
+                text: "Clip top je inovatívny vlasový doplnok určený ženám, ktoré riešia rednutie alebo vypadávanie vlasov - Alopéciu v oblasti temena, no aj problémy s riedkimi a jemnými vlasmi.\n\nPomáha zakryť problematické miesta a zároveň dodáva vlasom objem a prirodzený vzhľad, pričom je priedušný, pokožka sa na hlave nepotí. Je pohodlný na nosenie, ľahko sa používa a dokonale splynie s vlastným vlasmi.\n\nVďaka nemu môžete rýchlo a bez námahy vylepšiť svoj vzhľad za pár sekúnd a cítiť sa sebavedomejšie.\n\nClip Top ponúkame v rôznych farbách a variantoch, vďaka čomu si každá žena vie vybrať to, čo jej najviac vyhovuje.\n\nPomocou nenápadných klipov sa ľahko a rýchlo aplikuje a je vyrobený z kvalitných ľudských vlasov, ktoré môžete upravovať fúkaním, žehlením aj natáčaním. Je ideálnym riešením aj v dňoch, keď chcete vyzerať upravene bez umývania vlasov.",
+            },
+            clipIn:{
+                text:"Metóda clip-in je skvelou voľbou, ak chcete dodať vlasom dĺžku a objem za rozumnú cenu bez dlhého sedenia u kaderníka.\n" +
+                    "\n" +
+                    "Umožňuje vám nasadiť si vlasy len pri špeciálnych príležitostiach a jednoduchoch dát dole pri športe alebo spánku. Kvalitné vlasy zaručujú prirodzený vzhľad.\n" +
+                    "\n" +
+                    "Táto metóda je zároveň veľmi šetrná, keďže vlasy nijako nepoškodzuje. Na výber sú rôzne farebné varianty, typy vlasov od rovných až po kučeravé vo všetkých dĺžkach. Clip-in vlasy sa vyrábajú na objednávku, presne na mieru zákazníčky, s jednoduchým a rýchlym nasadením pomocou malých sponiek a ešte rýchlejším odstránením v priebehu pár sekúnd.",
+            },
+            bangs:{
+                text: "Pre dámy, ktoré majú rady zmenu a jedinečný štýl, ponúkame ofinku, ktorá sa jednoducho prispôsobí účesu každej ženy.\n\nJe navrhnutá tak, aby vyhovovala rôznym typom tváre a mohla byť zapracovaná do copu či iného účesu podľa želania.\n\nK dispozícii je v dlhšom prevedení, aby ju bolo možné individuálne zostrihať a prispôsobiť konkrétnym potrebám zákazníčky. Ponúkame rôzne farebné varianty, s odrastmi alebo bez, vhodné na každodenné nosenie, ako aj na občasné osvieženie účesu či rýchlu zmenu štýlu.\n\nOfiny ponúkame v rôznych farbách a variantoch, vďaka čomu si každá žena vie vybrať tú, ktorá jej najviac vyhovuje. Pomocou nenápadných klipov sa ľahko a rýchlo aplikuje. Je vyrobená z kvalitných ľudských vlasov, ktoré môžete upravovať fúkaním, žehlením aj natáčaním.\n\nJe ideálnym riešením aj v dňoch, keď chcete vyzerať upravene bez umývania vlasov.",
+            },
+            invisibleTape:{
+                text:"Predstavujeme vám exkluzívnu novinku na trhu, metódu predlžovania vlasov Invisible tapes, vyvinutú podľa najnáročnejších požiadaviek žien s dôrazom na úplne nenápadné spoje.  \n" +
+                    "Každý pásik sa vyrába ručne s využitím techniky putkovania do veľmi jemnej podkladovej fólie, ktorá dokonale prekrýva nadpájané vlasy, takže spoje zostávajú nenápadné. Tieto tenké a neviditeľné spoje umožňujú maximálny komfort a vďaka extrémnej tenkosti a minimálnej záťaži na vlastné vlasy, sú vhodné aj pre dámy s riedkimi a jemnými vlasmi.  \n" +
+                    "\n" +
+                    "Zo spodnej strany je fólia vybavená špeciálnou lepiacou páskou, ktorá umožňuje jednoduchú a bezpečnú aplikáciu bez použitia tepla. Zároveň vytvára nádherný, hustý a prirodzene vyzerajúci účes bez pramienkovania.  \n" +
+                    "\n" +
+                    "Vďaka všetkým výhodám Invisible tapes, je aplikácia nadpojenia a prepojenia veľmi rýchla."
+            },
+            braids:{
+                text:"V ponuke máme aj výrobu copov na suchý zips alebo šnúrku, tiež na objednávku. Vhodné sú na rôzne príležitosti ako aj na každodenné nosenie.\n" +
+                    "\n" +
+                    "V ponuke sú vlasy rôznej kvality, rovné, vlnité, kučeravé, v rôznych dĺžkach a farbách. Od prírodných až po farby podľa vzorkovníka L´oreal iNOA. Copy sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov.",
+            },
+            keratin:{
+                text: "V ponuke máme aj zákazkovú výrobu vlasových prameňov určených na predlžovanie vlasov.\n" +
+                    "\n" +
+                    "Po výbere typu vlasov, farby alebo melíru a požadovanej dĺžky vyhotovíme pramene na mieru presne podľa vašich potrieb, či už s lalebo U spojom, vhodné pre všetky techniky predlžovania.\n" +
+                    "\n" +
+                    "Pramene s ukončením sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov."
+            },
+            cosmetics:{
+                text:"V ponuke máme aj vysokokvalitný šampón vhodný pre všetky typy vlasov, určený pre nadpojené aj vlastné prirodzené vlasy.\n" +
+                    "\n" +
+                    "Dopĺňa ho kaviárová maska, ktorá vlasom dodáva potrebnú výživu, chráni ich a zároveň zabezpečuje, že sa vlasy ľahko rozčesávajú a zostávajú hebké.",
+            },
         }
     },
 
@@ -83,7 +127,7 @@ const translations = {
                 clipTop: "Clip top",
                 clipIn: "Clip in",
                 invisibleTapes: "Invisible tapes",
-                bang: "Bang",
+                bang: "Bangs",
                 braids: "Braids",
                 keratinOrMicroringHair: "Keratin or microring hair",
                 chart: "Hair color chart for invisible tape",
@@ -142,6 +186,55 @@ const translations = {
         contacts:{
             title:"Contact us:",
             invoice:"Invoice details:",
+        },
+        modal:{
+            naturalHair:{
+                text: "We offer a wide selection of European and Russian hair of various types, from straight to wavy to curly.\n\nIn various lengths and colors, from natural shades to dyed.\n\nAll hair bundles are combed from short hair, which guarantees their equal density along the entire length without thinned ends.",
+            },
+            clipTop:{
+                text: "Clip top is an innovative hair product designed for women who are dealing with thinning or hair loss, Alopecia in the scalp, as well as problems with thin and fine hair.\n\nIt helps to cover problem areas and at the same time gives hair volume and a natural look, while being breathable, the skin on the head does not sweat. It is comfortable to wear, easy to use and blends perfectly with your own hair.\n\nThanks to it, you can quickly and effortlessly improve your appearance in a few seconds and feel more confident.\n\nWe offer ClipTop in various colors and variants, so every woman can choose what suits her best.\n\nIt is easy and quick to apply using discreet clips and is made of high-quality human hair, which you can style by blowing, ironing and curling. It is also an ideal solution on days when you want to look groomed without washing your hair.",
+            },
+            clipIn:{
+                text:"The clip in method is a great option if you want to add length and volume to your hair at a reasonable price without a long session at the hairdresser. It allows you to put your hair on only during special events and simply take it off when doing sports or during the sleep.\n" +
+                    "\n" +
+                    "High-quality hair guarantees a natural look. This method is also very gentle, as it does not damage the hair in any way. Choose from various color options, hair types from straight to curly in all lengths.\n" +
+                    "\n" +
+                    "Clip-in hair is made according to your order, exactly for the customer and is quickly applied using small hair clips and removed even faster in a few seconds.",
+            },
+            bangs:{
+                text: "For ladies who like change and a unique style, we offer a bang that easily adapts to every woman's hairstyle.\n\nIt is designed to suit different face types and can be incorporated into a ponytail or other hairstyle as desired.\n\nIt is available in a longer length, so it can be individually cut and adapted to the customer’s specific needs. We offer various color variants, with or without dark roots, suitable for everyday wear, as well as for occasional hairstyle refreshment or a quick change of style.\n\nWe offer bangs in various colors and variants, thanks to which every woman can choose the one that suits her best. It is easily and quickly applied using discreet clips and is made of high-quality human hair.",
+            },
+            invisibleTape:{
+                text:"We present you an exclusive new product on the market, the Invisible Tapes hair extension method, developed according to the most demanding requirements of women with an emphasis on completely inconspicuous connections.\n" +
+                    "\n" +
+                    "Each tape is made by hand and uses the technique of taping into a very fine base foil, which perfectly covers your hair, so that the connections remain inconspicuous. Thin and almost invisible connections allow maximum comfort and, thanks to their extreme thinness and minimal load on their own hair, they are also suitable for women with thin and fine hair.\n" +
+                    "\n" +
+                    "The foil is equipped with a special adhesive tape on the underside, which allows for easy and safe application and at the same time creates a beautiful, thick and natural-looking hairstyle without streaks.\n" +
+                    "\n" +
+                    "Thanks to all the advantages of Invisible tapes, the application of the hair extensions and the removal is very fast."
+            },
+            braids:{
+                text:"We also offer the production of braids with Velcro or hair bow, also on order. They are suitable for various occasions but also for everyday wear.\n" +
+                    "\n" +
+                    "The offer includes hair of different quality, straight, wavy, curly, in various lengths and colors. From natural to colors according to the L´Oreal sample book.\n" +
+                    "\n" +
+                    "The braids are combed from short hair, guaranteeing the same density along the entire length without thinned ends.",
+            },
+            keratin:{
+                text: "We also offer custom-made hair extensions. After  \n" +
+                    "selecting your hair type, color or highlights, and desired  \n" +
+                    "length, we will make custom-made hair extensions exactly  \n" +
+                    "according to your needs, whether with a tube or U  \n" +
+                    "connection, suitable for all extension techniques.  \n" +
+                    "\n" +
+                    "The strands with the ends are combed from short hair,  \n" +
+                    "guaranteeing the same density along the entire length  \n" +
+                    "without thinned ends."
+            },
+            cosmetics:{
+                text:"We also offer a high-quality shampoo suitable for all hair types, designed for both hair extensions and natural hair.  \n" +
+                    "It is complemented by a caviar mask that provides essential nourishment, protects the hair, and ensures it is easy to detangle while remaining soft and smooth.",
+            },
         }
     },
 
@@ -217,6 +310,62 @@ const translations = {
         contacts:{
             title:"Elérhetőség:",
             invoice:"Számlázási adatok:",
+        },
+        modal:{
+            naturalHair:{
+                text: "Széles választékban kínálunk európai és orosz hajat a legmagasabb minőségben. Különböző típusokban, az egyenestől a hullámosan át a göndörig.\n\nKülönböző hosszúságban és színben, a természetes árnyalatoktól a festettekig. Minden haj gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
+            },
+            clipTop:{
+                text: "A Clip Top egy innovatív hajkiegészítő, amelyet a hajhullással, ritkullással, azaz a fejbőr alopecájával, valamint a vékony és finom hajjal küzdő hölgyek számára terveztek.\n\nSegít elfedni a problémás területeket, ugyanakkor volument és természetes megjelenést kölcsönöz a hajnak, miközben légáteresztő, a fejbőr nem izzad.\n\nViselőre kényelmes, könnyen használható, és tökéletesen illeszkedik a saját hajához. Ennek köszönhetően gyorsan és könnyedén változtathat megjelenésén néhány másodperc alatt, és magabiztosabbnak érezheti magát.\n\nA Clip Topot különböző színekben és változatokban kínáljuk, így minden hölgy kiválaszthatja a számára legmegfelelőbbet. Diszkrét csatokkal könnyen és gyorsan felhelyezhető, és kiváló minőségű emberi hajból készült, amelyet szárítással, vasalással és göndörítéssel is formázható. Ideális megoldás azokra a napokra is, amikor ápoltnak szeretne látszani hajmosás nélkül.",
+            },
+            clipIn:{
+              text:"A csatos póthaj nagyszerű választás, ha hosszú és dús hajat szeretne elérhető áron, anélkül, hogy hosszas fodrászlátogatásra lenne szüksége.\n" +
+                  "\n" +
+                  "Lehetővé teszi, hogy csak különleges események alkalmával helyezze fel a hajad, sportolás vagy alvás közben pedig egyszerűen levedd. A kiváló minőségű haj természetes megjelenést garantál.\n" +
+                  "\n" +
+                  "Ez a módszer nagyon gyengéd is, mivel semmilyen módon nem károsítja a hajat.\n" +
+                  "\n" +
+                  "Válasszon a különböző színválasztékok, hajtípusok közül az egyenestől a göndörig, minden hosszúságban. A csatos póthajat a megrendelés szerint, pontosan a megrendelő számára készítjük el, és kis csatok segítségével gyorsan és egyszerűen rögzíthető, majd néhány másodperc alatt még gyorsabban levehető.",
+            },
+            bangs:{
+                text: "A változatosságot és az egyedi stílust kedvelő hölgyek számára frufrut kínálunk, amely könnyedén alkalmazkodik minden női frizurához.\n\nKülönböző arctípusokhoz tervezték és igény szerint lófarokba vagy bármely frizurába beilleszthető. Hosszabb változatban kapható, így egyedileg vágható és a megrendelő egyedi igényeihez igazítható. Különböző színváltozatokat kínálunk, lenövéssel vagy anélkül. Alkalmasak mindennapi viseletre, valamint alkalmi frizurafrissítésre vagy gyors stílusváltásra.\n\nKülönböző színekben és változatokban kínálunk frufrut, így minden hölgy kiválaszthatja a számára legmegfelelőbbet.\n\nDiszkrét osatokkal könnyen és gyorsan felhelyezhető. Mivel kiváló minőségű emberi hajtól készült, fújással, vasalással és göndörítéssel is formázható. Ideális megoldás azokra a napokra is, amikor hajmosás nélkül szeretne ápoltnak látszani.",
+            },
+            invisibleTape:{
+                text:"Bemutatjuk exkluzív újdonságunkat, az Invisible Tapes  \n" +
+                    "hajhosszabbítási módszert, amelyet a hölgyek leglényesebb  \n" +
+                    "elvárásai szerint fejlesztettek ki, a teljesen feltűnésmentes  \n" +
+                    "illesztésekre helyezve a hangsúlyt.  \n" +
+                    "\n" +
+                    "Minden egyes tape kézzel készült, egy nagyon vékony hálós  \n" +
+                    "injektálási rögzítési technika alkalmazásával, amely tökéletesen  \n" +
+                    "befedzi az eredeti hajat. Ezáltal az illesztések láthatatlankon  \n" +
+                    "maradnak és maximális kényelmet biztosítanak viselőinek.  \n" +
+                    "Rendkívüli vékonyságuknak és a saját hajra nehezedő minimális  \n" +
+                    "terhelésnek köszönhetően pedig a vékony és finom hajú hölgyek  \n" +
+                    "számáraik alkalmasak.  \n" +
+                    "\n" +
+                    "A fólia alján egy speciális ragasztószalag található, amely  \n" +
+                    "lehetővé teszi a könnyű és biztonságos felhelyezést, hő  \n" +
+                    "használata nélkül. Ugyanakkor gyönyörű, dús és természetes  \n" +
+                    "hatású frizurát hoz létre hajtincses efektus nélkül. Az Invisible  \n" +
+                    "tapes, remek előnyeinek köszönhetően a póthaj felhelyezése és  \n" +
+                    "levétele rövid idő alatt kész."
+            },
+            braids:{
+                text:"Tépőzáras vagy masnis lófarok copfokat is készítünk, szintén megrendelésre. Különböző alkalmakra, de akár mindennapi viseletre is alkalmasak. Kínálatunkban különböző minőségű, egyenes, hullámos, göndör haj található, különböző hosszúságban és színben.\n" +
+                    "\n" +
+                    "A természetes tónusoktól a L´Oreal színminta alapján elérhető színekig. A hajszálak gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
+            },
+            keratin:{
+                text: "Kínálatunkban keratinos vagy mikrogyűrűs véggel ellátott póthajak is elérhetők. A hajtípus, a szín vagy mellír, valamint a kívánt hossz kiválasztása után az Ön igényei szerint készítjük el a póthajat, vagy U típusú végezéssel, amely minden hajhosszabbítási technikához alkalmas.\n" +
+                    "\n" +
+                    "A hajszálak gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül."
+            },
+            cosmetics:{
+                text:"Kínálatunkban egy kiváló minőségű sampon is található, amely minden hajtípusra alkalmas, és mind a hajhosszabbításhoz, mind a természetes hajhoz készült.\n" +
+                    "\n" +
+                    "Kiegészül egy kaviármaszk, amely nélkülözhetetlen táplálást biztosít, védi a hajat, és biztosítja, hogy könnyen kifésülhető legyen, miközben puha és sima marad.",
+            },
         }
     }
 };

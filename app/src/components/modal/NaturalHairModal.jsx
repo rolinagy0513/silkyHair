@@ -1,6 +1,9 @@
 import React, {useContext, useEffect} from "react";
 
-import title from "../../assets/NaturalHairTitle.png";
+import titleSK from "../../assets/NaturalHairTitleSK.png";
+import titleENG from "../../assets/NaturalHairTitleENG.png";
+import titleHUN from "../../assets/NaturalHairTitleHUN.png"
+
 import product1 from "../../assets/NaturalHairModalImage1.png";
 import product2 from "../../assets/NaturalHairModalImage2.png";
 import product3 from "../../assets/NaturalHairModalImage3.png";
@@ -9,16 +12,31 @@ import product5 from "../../assets/NaturalHairModalImage5.png";
 import product6 from "../../assets/NaturalHairModalImage6.png";
 
 import {ModalContext} from "../../context/ModalContext.jsx";
+import {LanguageContext} from "../../context/LanguageContext.jsx";
+
+import translations from "../../utility/Trsanslations.js";
 
 import "./styles/NaturalHairModal.css";
 
 const NaturalHairModal = () => {
 
-    const{isNaturalHairModalOpen, setIsNaturalHairModalOpen} = useContext(ModalContext)
+    const{isNaturalHairModalOpen, setIsNaturalHairModalOpen} = useContext(ModalContext);
+    const{selectedLanguage} = useContext(LanguageContext);
 
-    if (!isNaturalHairModalOpen) return null;
+    const currentTranslations = translations[selectedLanguage] || translations.SK;
+    const modalText = currentTranslations?.modal.naturalHair || translations.SK.modal.naturalHair;
 
-    const modalText = "V ponuke máme široký výber Európskych aj Ruských vlasov najvyššej kvality. Rôznych druhov, od rovných cez vlnité až po kučenavé. V rôznych dĺžkach a farbách, od prírodných odtieňov až po farbené. Všetky zvážky vlasov sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov.";
+    let title;
+
+    if (selectedLanguage === "SK"){
+        title = titleSK;
+    }else if (selectedLanguage === "ENG"){
+        title = titleENG;
+    }else if (selectedLanguage === "HUN"){
+        title = titleHUN;
+    }else{
+        title = titleSK;
+    }
 
     const productImages = [
         { id: 1, src: product1, alt: "Natural Hair Product 1" },
@@ -41,6 +59,8 @@ const NaturalHairModal = () => {
         };
     }, [isNaturalHairModalOpen]);
 
+    if (!isNaturalHairModalOpen) return null;
+
     return (
         <div className="nh-modal-overlay" onClick={()=>setIsNaturalHairModalOpen(false)}>
             <div className="nh-modal-content" onClick={(e) => e.stopPropagation()}>
@@ -56,7 +76,7 @@ const NaturalHairModal = () => {
                         </div>
 
                         <div className="nh-text-content">
-                            <p>{modalText}</p>
+                            <p>{modalText.text}</p>
                         </div>
                     </div>
 

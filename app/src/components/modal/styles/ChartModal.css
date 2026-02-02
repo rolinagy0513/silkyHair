@@ -1,0 +1,201 @@
+/* ChartModal.css */
+.ch-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    padding: 20px;
+    animation: ch-fadeIn 0.3s ease-out;
+}
+
+@keyframes ch-fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.ch-modal-content {
+    background-color: #6B5D54FF;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 1200px; /* Increased width */
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: ch-slideUp 0.4s ease-out;
+    position: relative;
+    padding: 20px;
+}
+
+@keyframes ch-slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.ch-close-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.ch-close-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f0e6d2;
+}
+
+.ch-close-icon {
+    line-height: 1;
+}
+
+.ch-modal-body {
+    padding: 40px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ch-title-container {
+    text-align: center;
+    width: 100%;
+}
+
+.ch-modal-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 1.3;
+}
+
+.ch-images-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ch-image-wrapper {
+    flex: 1;
+    max-width: 48%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.ch-image-wrapper:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.ch-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .ch-modal-content {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .ch-modal-body {
+        padding: 30px 15px 15px;
+        gap: 25px;
+    }
+
+    .ch-modal-title {
+        font-size: 22px;
+        padding: 0 10px;
+    }
+
+    .ch-images-container {
+        gap: 15px;
+    }
+
+    .ch-image-wrapper {
+        height: 300px;
+        max-width: 48%;
+    }
+}
+
+/* Changed from 480px to 700px */
+@media (max-width: 700px) {
+    .ch-modal-body {
+        padding: 30px 15px 15px;
+        gap: 20px;
+    }
+
+    .ch-close-button {
+        top: 10px;
+        left: 10px;
+        width: 36px;
+        height: 36px;
+        font-size: 24px;
+    }
+
+    .ch-modal-title {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .ch-images-container {
+        flex-direction: column; /* Stack vertically */
+        gap: 20px;
+    }
+
+    .ch-image-wrapper {
+        height: 300px; /* Increased height for better visibility */
+        max-width: 100%; /* Full width */
+        width: 100%;
+    }
+}
+
+/* Keep the 480px for even smaller adjustments */
+@media (max-width: 480px) {
+    .ch-modal-body {
+        padding: 30px 10px 15px;
+        gap: 15px;
+    }
+
+    .ch-modal-title {
+        font-size: 18px;
+        padding: 0 5px;
+    }
+
+    .ch-images-container {
+        gap: 15px;
+    }
+
+    .ch-image-wrapper {
+        height: 250px; /* Slightly smaller on very small screens */
+    }
+}

@@ -12,21 +12,33 @@ import Products from "./components/page/Products.jsx";
 import BeforeAfter from "./components/page/BeforeAfter.jsx";
 import ScrollAnimatedSection from "./components/page/ScrollAnimatedSection.jsx"
 
-import NaturalHairModal from "./components/modal/NaturalHairModal.jsx";
 import {ModalContext} from "./context/ModalContext.jsx";
 
-import "./App.css"
+import NaturalHairModal from "./components/modal/NaturalHairModal.jsx";
+
 import ClipTopModal from "./components/modal/ClipTopModal.jsx";
+import BangsModal from "./components/modal/BangsModal.jsx";
+import ClipInModal from "./components/modal/ClipInModal.jsx";
+import InvisibleTapeModal from "./components/modal/InvisibleTapeModal.jsx";
+import BraidsModal from "./components/modal/BraidsModal.jsx";
+import KeratinModal from "./components/modal/KeratinModal.jsx";
+
+import "./App.css"
+import ChartModal from "./components/modal/ChartModal.jsx";
+import CosmeticsModal from "./components/modal/CosmeticsModal.jsx";
 
 function App() {
 
-    //todo: Le kell momdani az adobe subscription-t is szóval valami prinstrceen-ek kellenek meg a képek a modal-ok ból.
-   //todo: ClipTopModal még nem jó minden media weidth-en szóval azt meg kell változtatni
-  //todo: Többi modal mehet ugyan úgy aztán language selector ezekhez mind
+    //todo: Átt kell nézni az egész kódot aztán el lehet küldeni buildel-ve
+    //todo: Kommenteket ki kell törölni és mindent beállítani ha élesbe menne a project
 
-
-
-  const {isNaturalHairModalOpen, isClipTopModalOpen} = useContext(ModalContext);
+  const {
+      isNaturalHairModalOpen, isClipTopModalOpen,
+      isBangsModalOpen, isClipInModalOpen,
+      isInvisibleTapeModalOpen, isBraidsModalOpen,
+      isKeratinModalOpen, isChartModalOpen,
+      isCosmeticsModalOpen,
+  } = useContext(ModalContext);
 
   return (
 
@@ -64,7 +76,35 @@ function App() {
                <ClipTopModal/>
            )}
 
-            <Footer/>
+          {isBangsModalOpen &&(
+                <BangsModal/>
+          )}
+
+          {isClipInModalOpen &&(
+              <ClipInModal/>
+          )}
+
+          {isInvisibleTapeModalOpen &&(
+              <InvisibleTapeModal/>
+          )}
+
+          {isBraidsModalOpen &&(
+              <BraidsModal/>
+          )}
+
+          {isKeratinModalOpen &&(
+              <KeratinModal/>
+          )}
+
+          {isChartModalOpen &&(
+              <ChartModal/>
+          )}
+
+          {isCosmeticsModalOpen &&(
+              <CosmeticsModal/>
+          )}
+
+              <Footer/>
 
           </div>
   )
