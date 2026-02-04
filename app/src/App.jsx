@@ -29,9 +29,6 @@ import CosmeticsModal from "./components/modal/CosmeticsModal.jsx";
 
 function App() {
 
-    //todo: Átt kell nézni az egész kódot aztán el lehet küldeni buildel-ve
-    //todo: Kommenteket ki kell törölni és mindent beállítani ha élesbe menne a project
-
   const {
       isNaturalHairModalOpen, isClipTopModalOpen,
       isBangsModalOpen, isClipInModalOpen,

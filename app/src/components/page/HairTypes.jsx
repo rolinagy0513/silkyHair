@@ -17,7 +17,7 @@ const HairTypes = () =>{
                 <div className="hair-type-card">
                     <h3 className="hair-type-card-title">{typesOfHair.europeanTitle}</h3>
                     <div className="hair-type-card-description">
-                      <p>{typesOfHair.europeanText}</p>
+                        <p>{typesOfHair.europeanText}</p>
                     </div>
                 </div>
                 <div className="hair-type-card">

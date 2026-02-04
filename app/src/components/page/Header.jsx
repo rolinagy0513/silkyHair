@@ -1,6 +1,6 @@
 import {useContext, useEffect} from "react";
 
-import logo from "../../assets/logo.png";
+import logo from "../../assets/Page/Other/logo.png";
 
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 

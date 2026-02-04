@@ -1,15 +1,15 @@
 import React, {useContext, useEffect} from "react";
 
-import titleSK from "../../assets/NaturalHairTitleSK.png";
-import titleENG from "../../assets/NaturalHairTitleENG.png";
-import titleHUN from "../../assets/NaturalHairTitleHUN.png"
+import titleSK from "../../assets/Modal/NaturalHair/NaturalHairTitleSK.png";
+import titleENG from "../../assets/Modal/NaturalHair/NaturalHairTitleENG.png";
+import titleHUN from "../../assets/Modal/NaturalHair/NaturalHairTitleHUN.png"
 
-import product1 from "../../assets/NaturalHairModalImage1.png";
-import product2 from "../../assets/NaturalHairModalImage2.png";
-import product3 from "../../assets/NaturalHairModalImage3.png";
-import product4 from "../../assets/NaturalHairModalImage4.png";
-import product5 from "../../assets/NaturalHairModalImage5.png";
-import product6 from "../../assets/NaturalHairModalImage6.png";
+import product1 from "../../assets/Modal/NaturalHair/NaturalHairModalImage1.png";
+import product2 from "../../assets/Modal/NaturalHair/NaturalHairModalImage2.png";
+import product3 from "../../assets/Modal/NaturalHair/NaturalHairModalImage3.png";
+import product4 from "../../assets/Modal/NaturalHair/NaturalHairModalImage4.png";
+import product5 from "../../assets/Modal/NaturalHair/NaturalHairModalImage5.png";
+import product6 from "../../assets/Modal/NaturalHair/NaturalHairModalImage6.png";
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";

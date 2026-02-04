@@ -1,10 +1,10 @@
 import {useContext, useEffect} from "react";
 
-import titleDual from "../../assets/ClipInTitleSK-ENG.png"
-import titleHUN from "../../assets/ClipInTitleHUN.png"
+import titleDual from "../../assets/Modal/ClipIn/ClipInTitleSK-ENG.png"
+import titleHUN from "../../assets/Modal/ClipIn/ClipInTitleHUN.png"
 
-import product1 from "../../assets/CLipInModalImage1.png"
-import product2 from "../../assets/ClipInModalImage2.png"
+import product1 from "../../assets/Modal/ClipIn/CLipInModalImage1.png"
+import product2 from "../../assets/Modal/ClipIn/ClipInModalImage2.png"
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";

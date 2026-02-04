@@ -23,7 +23,7 @@
 }
 
 .product-image {
-    height: 350px;
+    height: 25rem;
     border-radius: 8px;
     margin-bottom: 15px;
     overflow: hidden;
@@ -88,9 +88,9 @@
         grid-template-columns: 1fr;
     }
 
-    .product-image {
-        height: 400px;
-    }
+    /*.product-image {*/
+    /*    height: 350px;*/
+    /*}*/
 
     .coming-soon-text {
         font-size: 32px;

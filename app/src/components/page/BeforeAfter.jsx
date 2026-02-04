@@ -1,14 +1,17 @@
-import before1 from "../../assets/before1.png";
-import after1 from "../../assets/after1.png";
-import before2 from "../../assets/before2.png";
-import after2 from "../../assets/after2.png";
-import before3 from "../../assets/before3.png";
-import after3 from "../../assets/after3.png";
+import {useContext} from "react";
+
+import before1 from "../../assets/Page/BeforeAfter/before1.png";
+import after1 from "../../assets/Page/BeforeAfter/after1.png";
+import before2 from "../../assets/Page/BeforeAfter/before2.png";
+import after2 from "../../assets/Page/BeforeAfter/after2.png";
+import before3 from "../../assets/Page/BeforeAfter/before3.png";
+import after3 from "../../assets/Page/BeforeAfter/after3.png";
+
+import {LanguageContext} from "../../context/LanguageContext.jsx";
+
+import translations from "../../utility/Trsanslations.js";
 
 import "./styles/BeforeAfter.css"
-import {useContext} from "react";
-import {LanguageContext} from "../../context/LanguageContext.jsx";
-import translations from "../../utility/Trsanslations.js";
 
 const BeforeAfter = () =>{
 

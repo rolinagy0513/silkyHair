@@ -1,12 +1,12 @@
 import {useContext} from "react";
 
-import naturalHair from "../../assets/Natural-Hair.png";
-import clipTop from "../../assets/Clip-Top.png";
-import clipIn from "../../assets/Cip-In.png";
-import invisibleTapes from "../../assets/Invisible-Tapes.png";
-import bangs from "../../assets/Bangs.png";
-import braids from "../../assets/Braids.png";
-import chart from "../../assets/Hair-Color-Chart.png";
+import naturalHair from "../../assets/Page/Products/Natural-Hair.png";
+import clipTop from "../../assets/Page/Products/Clip-Top.png";
+import clipIn from "../../assets/Page/Products/Cip-In.png";
+import invisibleTapes from "../../assets/Page/Products/Invisible-Tapes.png";
+import bangs from "../../assets/Page/Products/Bangs.png";
+import braids from "../../assets/Page/Products/Braids.png";
+import chart from "../../assets/Page/Products/Hair-Color-Chart.png";
 
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 

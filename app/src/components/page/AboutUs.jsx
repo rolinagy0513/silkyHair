@@ -1,11 +1,14 @@
-import introductionSk from "../../assets/IntroductionSk.png";
-import introductionHun from "../../assets/introductionHun.png";
-import introductionEng from "../../assets/introductionEng.png";
+import {useContext} from "react";
+
+import introductionSk from "../../assets/Page/Introduction/IntroductionSk.png";
+import introductionHun from "../../assets/Page/Introduction/introductionHun.png";
+import introductionEng from "../../assets/Page/Introduction/introductionEng.png";
+
+import {LanguageContext} from "../../context/LanguageContext.jsx";
+
+import translations from "../../utility/Trsanslations.js";
 
 import "./styles/AboutUs.css"
-import {useContext} from "react";
-import {LanguageContext} from "../../context/LanguageContext.jsx";
-import translations from "../../utility/Trsanslations.js";
 
 const AboutUs = () =>{
 

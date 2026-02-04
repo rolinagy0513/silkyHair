@@ -1,8 +1,10 @@
-import profile from "../../assets/profile.png";
-import name from "../../assets/name.png";
-
 import {useContext} from "react";
+
+import profile from "../../assets/Page/Other/profile.png";
+import name from "../../assets/Page/Other/name.png";
+
 import {LanguageContext} from "../../context/LanguageContext.jsx";
+
 import translations from "../../utility/Trsanslations.js";
 
 import "./styles/Introduction.css"

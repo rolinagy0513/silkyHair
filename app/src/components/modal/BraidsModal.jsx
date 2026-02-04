@@ -1,15 +1,15 @@
 import {useContext, useEffect} from "react";
 
-import titleSK from "../../assets/BraidsTitleSK.png"
-import titleENG from "../../assets/BraidsTitleENG.png"
-import titleHUN from "../../assets/BraidsTitleHUN.png"
+import titleSK from "../../assets/Modal/Braids/BraidsTitleSK.png"
+import titleENG from "../../assets/Modal/Braids/BraidsTitleENG.png"
+import titleHUN from "../../assets/Modal/Braids/BraidsTitleHUN.png"
 
-import product1 from "../../assets/BraidsModalImage1.png"
-import product2 from "../../assets/BraidsModalImage2.png"
-import product3 from "../../assets/BraidsModalImage3.png"
-import product4 from "../../assets/BraidsModalImage4.png"
-import product5 from "../../assets/BraidsModalImage5.png"
-import product6 from "../../assets/BraidsModalImage6.png"
+import product1 from "../../assets/Modal/Braids/BraidsModalImage1.png"
+import product2 from "../../assets/Modal/Braids/BraidsModalImage2.png"
+import product3 from "../../assets/Modal/Braids/BraidsModalImage3.png"
+import product4 from "../../assets/Modal/Braids/BraidsModalImage4.png"
+import product5 from "../../assets/Modal/Braids/BraidsModalImage5.png"
+import product6 from "../../assets/Modal/Braids/BraidsModalImage6.png"
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";

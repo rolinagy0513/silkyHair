@@ -5,6 +5,7 @@ import {LanguageContext} from "../../context/LanguageContext.jsx";
 import {ModalContext} from "../../context/ModalContext.jsx";
 
 import translations from "../../utility/Trsanslations.js";
+
 import {scrollToSection} from "../../utility/Scrolling.js";
 
 import "./styles/Navbar.css"

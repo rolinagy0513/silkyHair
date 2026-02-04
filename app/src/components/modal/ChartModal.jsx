@@ -3,8 +3,8 @@ import {useContext, useEffect} from "react";
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 
-import image1 from "../../assets/ChartModalImage1.png"
-import image2 from "../../assets/ChartModalImage2.png"
+import image1 from "../../assets/Modal/Chart/ChartModalImage1.png"
+import image2 from "../../assets/Modal/Chart/ChartModalImage2.png"
 
 import "./styles/ChartModal.css"
 

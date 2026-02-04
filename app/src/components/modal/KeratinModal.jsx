@@ -1,8 +1,8 @@
 import {useContext, useEffect} from "react";
 
-import titleSK from "../../assets/KeratinTitleSK.png"
-import titleENG from "../../assets/KeratinTitleENG.png"
-import titleHUN from "../../assets/KeratinTitleHUN.png"
+import titleSK from "../../assets/Modal/Keratin/KeratinTitleSK.png"
+import titleENG from "../../assets/Modal/Keratin/KeratinTitleENG.png"
+import titleHUN from "../../assets/Modal/Keratin/KeratinTitleHUN.png"
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";

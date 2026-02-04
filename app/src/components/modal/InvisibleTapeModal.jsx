@@ -1,19 +1,20 @@
 import {useContext, useEffect} from "react";
 
-import title from "../../assets/InvisibleTapesTitle.png"
+import title from "../../assets/Modal/InvisibleTape/InvisibleTapesTitle.png"
 
-import product1 from "../../assets/InvisibleTapesModalImage1.png"
-import product2 from "../../assets/InvisibleTapesModalImage2.png"
-import product3 from "../../assets/InvisibleTapesModalImage3.png"
-import product4 from "../../assets/InvisibleTapesModalImage4.png"
-import product5 from "../../assets/InvisibleTapesModalImage5.png"
-import product6 from "../../assets/InvisibleTapesModalImage6.png"
+import product1 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage1.png"
+import product2 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage2.png"
+import product3 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage3.png"
+import product4 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage4.png"
+import product5 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage5.png"
+import product6 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage6.png"
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 
-import "./styles/InvisibleTapeModal.css"
 import translations from "../../utility/Trsanslations.js";
+
+import "./styles/InvisibleTapeModal.css"
 
 const InvisibleTapeModal = () => {
 

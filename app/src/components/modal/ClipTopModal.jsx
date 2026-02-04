@@ -1,14 +1,14 @@
 import React, {useContext, useEffect} from "react";
 
-import titleDual from "../../assets/ClipTopTitleSK-ENG.png";
-import titleHUN from "../../assets/ClipTopTitleHUN.png";
+import titleDual from "../../assets/Modal/ClipTop/ClipTopTitleSK-ENG.png";
+import titleHUN from "../../assets/Modal/ClipTop/ClipTopTitleHUN.png";
 
-import product1 from "../../assets/ClipTopModalImage1.png";
-import product2 from "../../assets/ClipTopModalImage2.png";
-import product3 from "../../assets/ClipTopModalImage3.png";
-import product4 from "../../assets/ClipTopModalImage4.png";
-import product5 from "../../assets/ClipTopModalImage5.png";
-import product6 from "../../assets/ClipTopModalImage6.png";
+import product1 from "../../assets/Modal/ClipTop/ClipTopModalImage1.png";
+import product2 from "../../assets/Modal/ClipTop/ClipTopModalImage2.png";
+import product3 from "../../assets/Modal/ClipTop/ClipTopModalImage3.png";
+import product4 from "../../assets/Modal/ClipTop/ClipTopModalImage4.png";
+import product5 from "../../assets/Modal/ClipTop/ClipTopModalImage5.png";
+import product6 from "../../assets/Modal/ClipTop/ClipTopModalImage6.png";
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";

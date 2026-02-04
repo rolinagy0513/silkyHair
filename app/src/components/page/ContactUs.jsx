@@ -1,4 +1,4 @@
-import contactImage from "../../assets/contactImage.png";
+import contactImage from "../../assets/Page/Other/contactImage.png";
 
 import "./styles/ContactUs.css"
 import {useContext} from "react";

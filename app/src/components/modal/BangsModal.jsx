@@ -1,13 +1,13 @@
 import {useContext, useEffect} from "react";
 
-import titleSK from "../../assets/BangsTitleSK.png"
-import titleENG from "../../assets/BangsTitleENG.png"
-import titleHUN from "../../assets/BangsTitleHUN.png"
+import titleSK from "../../assets/Modal/Bangs/BangsTitleSK.png"
+import titleENG from "../../assets/Modal/Bangs/BangsTitleENG.png"
+import titleHUN from "../../assets/Modal/Bangs/BangsTitleHUN.png"
 
-import product1 from "../../assets/BangModalImage1.png"
-import product2 from "../../assets/BangModalImage2.png"
-import product3 from "../../assets/BangModalImage3.png"
-import product4 from "../../assets/BangModalImage4.png"
+import product1 from "../../assets/Modal/Bangs/BangModalImage1.png"
+import product2 from "../../assets/Modal/Bangs/BangModalImage2.png"
+import product3 from "../../assets/Modal/Bangs/BangModalImage3.png"
+import product4 from "../../assets/Modal/Bangs/BangModalImage4.png"
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
