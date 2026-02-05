@@ -14,6 +14,7 @@ import translations from "../../utility/Trsanslations.js";
 
 import "./styles/Products.css"
 
+
 const Products = () =>{
 
     const {selectedLanguage} = useContext(LanguageContext);
