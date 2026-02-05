@@ -43,7 +43,6 @@ const BeforeAfter = () =>{
             </div>
 
             <div className="before-after-row">
-                <h3>{beforeAfter.productName}</h3>
                 <div className="before-after-grid">
                     <div className="ba-image-container">
                         <div className="ba-image">
@@ -62,7 +61,6 @@ const BeforeAfter = () =>{
 
 
             <div className="before-after-row">
-                <h3>{beforeAfter.productName}</h3>
                 <div className="before-after-grid">
                     <div className="ba-image-container">
                         <div className="ba-image">

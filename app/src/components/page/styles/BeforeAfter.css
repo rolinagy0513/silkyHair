@@ -73,34 +73,178 @@
     letter-spacing: 0.5px;
 }
 
-@media (max-width: 968px) {
+@media (max-width: 1100px) {
+    .ba-image {
+        height: 320px;
+    }
 
+    .before-after-section h2 {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 968px) {
     .before-after-grid {
-        grid-template-columns: 1fr;
-        max-width: 400px;
+        max-width: 700px;
         gap: 30px;
     }
 
-    .before-after-section h2{
+    .ba-image {
+        height: 300px;
+    }
+
+    .before-after-section h2 {
         font-size: 52px;
+    }
+
+    .ba-image-container p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .before-after-grid {
+        max-width: 600px;
+        gap: 25px;
+    }
+
+    .ba-image {
+        height: 280px;
+    }
+
+    .before-after-section h2 {
+        font-size: 48px;
+    }
+
+    .ba-image-container p {
+        font-size: 19px;
     }
 }
 
 @media (max-width: 640px) {
-
     .before-after-section {
         padding: 40px 20px;
     }
 
-    .before-after-section h2{
-        font-size: 42px;
+    .before-after-grid {
+        max-width: 550px;
+        gap: 20px;
     }
 
     .ba-image {
-        height: 400px;
+        height: 240px;
     }
 
-    .ba-image::before {
+    .before-after-section h2 {
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    .before-after-row h3 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .ba-image-container p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 540px) {
+    .before-after-grid {
+        max-width: 500px;
+        gap: 18px;
+    }
+
+    .ba-image {
+        height: 220px;
+    }
+
+    .before-after-section h2 {
+        font-size: 40px;
+    }
+
+    .before-after-row h3 {
+        font-size: 24px;
+    }
+
+    .ba-image-container p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .before-after-grid {
+        max-width: 450px;
+        gap: 16px;
+    }
+
+    .ba-image {
+        height: 200px;
+    }
+
+    .before-after-section h2 {
+        font-size: 38px;
+    }
+
+    .before-after-row h3 {
+        font-size: 22px;
+    }
+
+    .ba-image-container p {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .before-after-section {
+        padding: 30px 15px;
+    }
+
+    .before-after-grid {
+        max-width: 380px;
+        gap: 14px;
+    }
+
+    .ba-image {
+        height: 180px;
+    }
+
+    .before-after-section h2 {
+        font-size: 36px;
+        margin-bottom: 35px;
+    }
+
+    .before-after-row h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .ba-image-container p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .before-after-grid {
+        grid-template-columns: 1fr;
+        max-width: 300px;
+        gap: 25px;
+    }
+
+    .ba-image {
+        height: 220px;
+    }
+
+    .before-after-section h2 {
+        font-size: 32px;
+    }
+
+    .before-after-row h3 {
+        font-size: 24px;
+    }
+
+    .ba-image-container p {
+        font-size: 18px;
     }
 }
