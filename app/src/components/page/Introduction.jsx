@@ -29,20 +29,25 @@ const Introduction = () =>{
                     <div className="profile-header">
                         {selectedLanguage === "HUN" ? (
                             <>
-                                <img src={name} alt="name" className="profile-name-image" />
-                                <span className="profile-greeting">{intro.title}</span>
+                                <div className="profile-description">
+                                    <p>
+                                        <img src={name} alt="name" className="profile-name-image" />
+                                        {intro.title}
+                                        {intro.text}
+                                    </p>
+                                </div>
                             </>
                         ) : (
                             <>
-                                <span className="profile-greeting">{intro.title}</span>
-                                <img src={name} alt="name" className="profile-name-image" />
+
+                                <div className="profile-description">
+                                    <p>{intro.title}
+                                    <img src={name} alt="name" className="profile-name-image" />
+                                    {intro.text}
+                                    </p>
+                                </div>
                             </>
                         )}
-                    </div>
-                    <div className="profile-description">
-                        <p>
-                            {intro.text}
-                        </p>
                     </div>
                 </div>
             </div>
