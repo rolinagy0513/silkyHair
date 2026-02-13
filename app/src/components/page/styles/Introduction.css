@@ -55,7 +55,6 @@
 
 .profile-description {
     padding: 10px;
-
     border-radius: 12px;
 }
 
@@ -63,7 +62,7 @@
     font-size: 22px;
     line-height: 1.8;
     margin-bottom: 25px;
-    color: #fff;
+    color: white;
     opacity: 0.95;
     font-weight: 300;
 }
@@ -71,7 +70,7 @@
 .profile-description p:last-child {
     margin-bottom: 0;
     font-weight: 400;
-    color: #f5e9e0;
+    color: white;
 }
 
 

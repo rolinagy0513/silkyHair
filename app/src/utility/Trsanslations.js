@@ -258,7 +258,7 @@ const translations = {
             }
         },
         introduction:{
-            title: "vagyok a Silky Hair alapítója.",
+            title: "vagyok a Silky Hair alapítója. ",
             text:
                 "Célom, hogy a hölgyek számára a legmagasabb minőségű emberi hajat és olyan termékeket kínáljak, " +
                 "amelyek segítenek nekik szépnek és magabiztosnak érezni magukat. " +

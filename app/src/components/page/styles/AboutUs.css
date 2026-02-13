@@ -17,14 +17,14 @@
     font-size: 22px;
     line-height: 1.8;
     margin-bottom: 25px;
-    color: #fff;
+    color: white;
     opacity: 0.95;
     font-weight: 300;
 }
 
 .about-section-text ul {
     margin: 20px 0 25px 40px;
-    color: #fff;
+    color: white;
     opacity: 0.95;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .about-section-text li:before {
-    color: #f5e9e0;
+    color: white;
     font-size: 22px;
     position: absolute;
     left: -25px;
@@ -46,7 +46,7 @@
 
 .about-section-text .closing-text {
     font-weight: 400;
-    color: #f5e9e0;
+    color: white;
     margin-top: 20px;
     margin-bottom: 0;
 }
