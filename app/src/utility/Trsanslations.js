@@ -14,7 +14,7 @@ const translations = {
                 bang: "Ofiny",
                 braids: "Copy na suchý zips a šnúrku",
                 keratinOrMicroringHair: "Pramene vlasov",
-                chart: "Vzorkovinky farieb invisibletape",
+                chart: "Vzorkovinky farieb",
                 cosmetics: " Vlasová kozmetika"
 
             }
@@ -34,8 +34,8 @@ const translations = {
             portfolioItems: [
                 "vlasy bez ukončenia vhodné na všetky predlžovacie metódy",
                 "pramene na rôzne metódy predlžovania / keratínové Typ U, trubičkové Typ I",
-                "pásiky na našu vlastnú, špeciálne vyvinutú metódu predlžovania - Invisible Tapes",
-                "luxusné parochne, ofiny, tupé - Clip Top, Clip In, copy, gumičky z vlasov a iné vlasové produkty",
+                "pásiky na našu vlastnú, špeciálne vyvinutú metódu predlžovania - (Invisible tapes)",
+                "luxusné parochne, ofiny, tupé - Clip top, Clip in, copy, gumičky z vlasov a iné vlasové produkty",
                 "zákazkovú výrobu podľa individuálnych požiadaviek."
             ],
             closingText: "Tešíme sa na našu spoluprácu."
@@ -43,28 +43,28 @@ const translations = {
         typesOfHair:{
             title:"V ponuke máme dva typy vlasov: ",
             europeanTitle:"Európske panenské vlasy:",
-            europeanText:"Ide o panenské vlasy, často aj detské, ktoré neboli nikdy farbené ani nijako chemicky či mechanicky upravované. Práve vďaka tomu patria medzi vlasy najvyššej kvality. Sú mimoriadne jemné, prirodzené a dokonale zachované. Sú ideálnou voľbou pre dámy s veľmi jemnými vlasmi, pretože krásne splynú s ich prirodzenou štruktúrou a pôsobia nenápadne a autenticky. Keďže neprešli farbením, vynikajú prirodzenou farebnou rozmanitosťou, vrátane jemných farebných prechodov a prirodzene svetlejších koncov. Dostupné sú v rôznych prirodzených variantoch, od rovných cez vlnité až po kučeravé zosvetlené slnkom.",
+            europeanText:"Ide o panenské vlasy, často aj detské, ktoré neboli nikdy farbené ani nijako chemicky či mechanicky upravované. Práve vďaka tomu patria medzi vlasy najvyššej kvality. Sú mimoriadne jemné, prirodzené a dokonale zachované. Sú ideálnou voľbou pre dámy s veľmi jemnými vlasmi, pretože krásne splynú s ich prirodzenou štruktúrou a pôsobia nenápadne a autenticky. Keďže neprešli farbením, vynikajú prirodzenou farebnou rozmanitosťou, vrátane jemných farebných prechodov a prirodzene svetlejších koncov, zosvetlených slnkom. Dostupné sú v rôznych prirodzených variantoch, od rovných cez vlnité až po kučeravé.",
             russianTitle: "Ruské vlasy:",
             russianText: "Ruské vlasy sú prirodzene husté, pevnejšie a majú rovný až jemne vlnitý charakter. Sú ideálne pre dámy, ktoré si vlasy často upravujú žehlením, fénovaním či natáčaním a zároveň pre dámy, ktoré potrebujú dodať svojim vlasom výraznejší objem. Vďaka svojej hustote a pevnejšej štruktúre vydržia veľmi dlho v krásnom stave. Ich pôvodná farba je tmavá, preto u našich dodávateľov prechádzajú veľmi zdĺhavým a šetrným procesom bielenia, po ktorom sú zafarbené do šiestich základných odtieňov. Po výbere farby zo vzorkovníka je možné ich podľa potreby ďalej tónovať alebo dofarbiť, aby dokonale ladili s prirodzeným odtieňom klientky."
         },
         products:{
             productTitle: "Produkty",
-            product1: "Vlasy bez ukončenia",
+            product1: "vlasy bez ukončenia",
             product2: "Clip Top",
             product3: "Clip In",
             product4: "Invisible Tapes",
-            product5: "Ofiny",
-            product6: "Copy na suchý zips a šnúrku",
-            product7:"Pramene vlasov - keratínové alebo trubičkové spoje",
-            product8:"Vzorkovinky farieb Invisible tape",
-            product9:"Vlasová kozmetika",
+            product5: "ofiny",
+            product6: "copy na suchý zips a šnúrku",
+            product7:"pramene vlasov - keratínové alebo trubičkové spoje",
+            product8:"vzorkovinky farieb Invisible tape",
+            product9:"vlasová kozmetika",
             comingSoonText: "Čoskoro!"
         },
         beforeAfter:{
             title: "Pred a po",
             productName: "Clip Top",
-            before: "Pred",
-            after: "Po"
+            before: "pred",
+            after: "po"
         },
         contacts:{
             title:"Kontakt:",
@@ -78,11 +78,11 @@ const translations = {
                 text: "Clip top je inovatívny vlasový doplnok určený ženám, ktoré riešia rednutie alebo vypadávanie vlasov - Alopéciu v oblasti temena, no aj problémy s riedkimi a jemnými vlasmi.\n\nPomáha zakryť problematické miesta a zároveň dodáva vlasom objem a prirodzený vzhľad, pričom je priedušný, pokožka sa na hlave nepotí. Je pohodlný na nosenie, ľahko sa používa a dokonale splynie s vlastným vlasmi.\n\nVďaka nemu môžete rýchlo a bez námahy vylepšiť svoj vzhľad za pár sekúnd a cítiť sa sebavedomejšie.\n\nClip Top ponúkame v rôznych farbách a variantoch, vďaka čomu si každá žena vie vybrať to, čo jej najviac vyhovuje.\n\nPomocou nenápadných klipov sa ľahko a rýchlo aplikuje a je vyrobený z kvalitných ľudských vlasov, ktoré môžete upravovať fúkaním, žehlením aj natáčaním. Je ideálnym riešením aj v dňoch, keď chcete vyzerať upravene bez umývania vlasov.",
             },
             clipIn:{
-                text:"Metóda clip-in je skvelou voľbou, ak chcete dodať vlasom dĺžku a objem za rozumnú cenu bez dlhého sedenia u kaderníka.\n" +
+                text:"Metóda clip in je skvelou voľbou, ak chcete dodať vlasom dĺžku a objem za rozumnú cenu bez dlhého sedenia u kaderníka.\n" +
                     "\n" +
-                    "Umožňuje vám nasadiť si vlasy len pri špeciálnych príležitostiach a jednoduchoch dát dole pri športe alebo spánku. Kvalitné vlasy zaručujú prirodzený vzhľad.\n" +
+                    "Umožňuje vám nasadiť si vlasy len pri špeciálnych príležitostiach a jednoducho dať dole pri športe alebo spánku. Kvalitné vlasy zaručujú prirodzený vzhľad.\n" +
                     "\n" +
-                    "Táto metóda je zároveň veľmi šetrná, keďže vlasy nijako nepoškodzuje. Na výber sú rôzne farebné varianty, typy vlasov od rovných až po kučeravé vo všetkých dĺžkach. Clip-in vlasy sa vyrábajú na objednávku, presne na mieru zákazníčky, s jednoduchým a rýchlym nasadením pomocou malých sponiek a ešte rýchlejším odstránením v priebehu pár sekúnd.",
+                    "Táto metóda je zároveň veľmi šetrná, keďže vlasy nijako nepoškodzuje. Na výber sú rôzne farebné varianty, typy vlasov od rovných až po kučeravé vo všetkých dĺžkach. Clip in vlasy sa vyrábajú na objednávku, presne na mieru zákazníčky, s jednoduchým a rýchlym nasadením pomocou malých sponiek a ešte rýchlejším odstránením v priebehu pár sekúnd.",
             },
             bangs:{
                 text: "Pre dámy, ktoré majú rady zmenu a jedinečný štýl, ponúkame ofinku, ktorá sa jednoducho prispôsobí účesu každej ženy.\n\nJe navrhnutá tak, aby vyhovovala rôznym typom tváre a mohla byť zapracovaná do copu či iného účesu podľa želania.\n\nK dispozícii je v dlhšom prevedení, aby ju bolo možné individuálne zostrihať a prispôsobiť konkrétnym potrebám zákazníčky. Ponúkame rôzne farebné varianty, s odrastmi alebo bez, vhodné na každodenné nosenie, ako aj na občasné osvieženie účesu či rýchlu zmenu štýlu.\n\nOfiny ponúkame v rôznych farbách a variantoch, vďaka čomu si každá žena vie vybrať tú, ktorá jej najviac vyhovuje. Pomocou nenápadných klipov sa ľahko a rýchlo aplikuje. Je vyrobená z kvalitných ľudských vlasov, ktoré môžete upravovať fúkaním, žehlením aj natáčaním.\n\nJe ideálnym riešením aj v dňoch, keď chcete vyzerať upravene bez umývania vlasov.",
@@ -98,12 +98,12 @@ const translations = {
             braids:{
                 text:"V ponuke máme aj výrobu copov na suchý zips alebo šnúrku, tiež na objednávku. Vhodné sú na rôzne príležitosti ako aj na každodenné nosenie.\n" +
                     "\n" +
-                    "V ponuke sú vlasy rôznej kvality, rovné, vlnité, kučeravé, v rôznych dĺžkach a farbách. Od prírodných až po farby podľa vzorkovníka L´oreal iNOA. Copy sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov.",
+                    "V ponuke sú vlasy rôznej kvality, rovné, vlnité, kučeravé, v rôznych dĺžkach a farbách. Od prírodných až po farby podľa vzorkovníka L´oréal iNOA. Copy sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov.",
             },
             keratin:{
                 text: "V ponuke máme aj zákazkovú výrobu vlasových prameňov určených na predlžovanie vlasov.\n" +
                     "\n" +
-                    "Po výbere typu vlasov, farby alebo melíru a požadovanej dĺžky vyhotovíme pramene na mieru presne podľa vašich potrieb, či už s lalebo U spojom, vhodné pre všetky techniky predlžovania.\n" +
+                    "Po výbere typu vlasov, farby alebo melíru a požadovanej dĺžky vyhotovíme pramene na mieru presne podľa vašich potrieb, či už s I alebo s U spojom, vhodné pre všetky techniky predlžovania.\n" +
                     "\n" +
                     "Pramene s ukončením sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov."
             },
@@ -112,6 +112,11 @@ const translations = {
                     "\n" +
                     "Dopĺňa ho kaviárová maska, ktorá vlasom dodáva potrebnú výživu, chráni ich a zároveň zabezpečuje, že sa vlasy ľahko rozčesávajú a zostávajú hebké.",
             },
+            chart:{
+                title: "L'Oréal iNOA vzrokovník",
+                imgText1:"vzorkovník L´Oréal iNOA",
+                imgText2:"vzorkovník Invisible tape",
+            }
         }
     },
 
@@ -130,7 +135,7 @@ const translations = {
                 bang: "Bangs",
                 braids: "Braids",
                 keratinOrMicroringHair: "Keratin or microring hair",
-                chart: "Hair color chart for invisible tape",
+                chart: "Hair color chart",
                 cosmetics: "Hair Cosmetics"
             }
         },
@@ -151,8 +156,8 @@ const translations = {
             portfolioItems: [
                 "braids of hair suitable for all types of extension techniques",
                 "strands for various extension methods /keratin U-Type, microring I-Type/",
-                "tapes for our own, specially developed extension method - Invisible Tapes",
-                "luxury wigs, bangs, toupees - Clip Top, Clip In, ponytail, hair tie made of hair and other hair products",
+                "tapes for our own, specially developed extension method - (Invisible tapes)",
+                "luxury wigs, bangs, toupees - Clip top, Clip in, ponytail, hair tie made of hair and other hair products",
                 "custom production according to individual requirements."
             ],
             closingText: "We look forward to our cooperation."
@@ -166,22 +171,22 @@ const translations = {
         },
         products:{
             productTitle: "Products",
-            product1: "Natural hair",
+            product1: "natural hair",
             product2: "Clip Top",
             product3: "Clip In",
             product4: "Invisible Tapes",
-            product5: "Bangs",
-            product6: "Braids",
-            product7:"Keratin or microring hair",
-            product8:"Hair color chart for Invisible tape",
-            product9:"Hair cosmetics",
+            product5: "bangs",
+            product6: "braids",
+            product7:"keratin or microring hair",
+            product8:"hair color chart for Invisible tape",
+            product9:"hair cosmetics",
             comingSoonText: "Coming soon!"
         },
         beforeAfter:{
             title: "Before After",
             productName: "Clip Top",
-            before: "Before",
-            after: "After"
+            before: "before",
+            after: "after"
         },
         contacts:{
             title:"Contact us:",
@@ -216,7 +221,7 @@ const translations = {
             braids:{
                 text:"We also offer the production of braids with Velcro or hair bow, also on order. They are suitable for various occasions but also for everyday wear.\n" +
                     "\n" +
-                    "The offer includes hair of different quality, straight, wavy, curly, in various lengths and colors. From natural to colors according to the L´Oreal sample book.\n" +
+                    "The offer includes hair of different quality, straight, wavy, curly, in various lengths and colors. From natural to colors according to the L´Oréal sample book.\n" +
                     "\n" +
                     "The braids are combed from short hair, guaranteeing the same density along the entire length without thinned ends.",
             },
@@ -235,6 +240,11 @@ const translations = {
                 text:"We also offer a high-quality shampoo suitable for all hair types, designed for both hair extensions and natural hair.  \n" +
                     "It is complemented by a caviar mask that provides essential nourishment, protects the hair, and ensures it is easy to detangle while remaining soft and smooth.",
             },
+            chart:{
+                title: "L'Oréal iNOA hair color chart",
+                imgText1: "L’Oréal iNOA color chart",
+                imgText2: "Invisible tape color chart",
+            }
         }
     },
 
@@ -253,7 +263,7 @@ const translations = {
                 bang: "Frufru",
                 braids: "Lófarok copf",
                 keratinOrMicroringHair: "Póthajak U-tip vagy I-tip",
-                chart: "Színminta invisible tape",
+                chart: "Színminta",
                 cosmetics: "Hajápolási termékek"
             }
         },
@@ -275,7 +285,7 @@ const translations = {
             portfolioItems: [
                 "osztályozott natúr póthaj, mely minden hosszabbítási technika elkészítéséhez alkalmas",
                 "hajtincsek különféle hosszabbítási módszerekhez /hőillesztés U-TIP, mikrogyűrű I-TIP/",
-                "Invisible Tapes - keratin ragasztócsíkok, saját fejlesztésű hosszabbítási módszerünkhöz",
+                "Invisible tapes - keratin ragasztócsíkok, saját fejlesztésű hosszabbítási módszerünkhöz",
                 "luxus parókák, frufruk, tupék, csatos póthajak, tépőzáras vagy szalagos lófarok copfok, hajgumik és egyéb hajápolási termékek",
                 "egyedi igények szerinti gyártás."
             ],
@@ -285,27 +295,27 @@ const translations = {
             title: "Két hajtípus van a kínálatunkban: ",
             europeanTitle: "Európai szűzhaj:",
             europeanText: "Az Európai szűzhaj vékonyszálú, gyakran gyermekhaj, amelyet soha nem festettek, illetve nem kezeltek kémiailag vagy mechanikailag. Ezért a legmagasabb minőségű hajak közé tartozik, rendkívül selymes, finom és természetes. Ideális választás a vékony hajú hölgyek számára, mert szépen beilleszkedik hajuk közé, természetes és esztétikus hatást kelt. Mivel nem festett, kiemelkedik gazdag színárnyalataival, beleértve a finom átmeneteket és a napfény által természetesen világosított hajvégeket. Különböző természetes változatokban kaphatók, az egyenestől a hullámoson át a göndörig.",
-            russianTitle: "Orosz haj:",
+            russianTitle: "Ázsiai haj:",
             russianText: "Az orosz haj természetesen sűrű, erősebb szálú, egyenes vagy enyhén hullámos jellegű. Ideális olyan hölgyek számára, akik gyakran formázzák hajukat vasalással, szárítással vagy göndörítéssel. Valamint azok hölgyek számára, akik dús hatást szeretnének elérni. Dús és erősebb hajszálainak köszönhetően nagyon tartós, hosszú ideig megőrzi szépségét. Eredeti színe sötét, ezért beszállítóink által egy nagyon hosszú és kíméletes szőkítési folyamaton mennek keresztül, majd hat alapárnyalatra vannak festve. A színmintából való megfelelő szín kiválasztása után, szükség szerint tovább festhető, hogy tökéletesen illeszkedjen az ügyfél természetes hajszínéhez."
         },
         products:{
             productTitle: "Termékek",
-            product1: "Natúr haj",
-            product2: "Tupé",
-            product3: "Csatolható haj",
+            product1: "natúr haj",
+            product2: "tupé",
+            product3: "csatolható haj",
             product4: "Invisible Tapes",
-            product5: "Frufru",
-            product6: "Lófarok copf",
-            product7:"Póthajak U-Tip vagy I-Tip",
-            product8:"Színminta Invisible tape",
-            product9:"Hajápolási termékek",
+            product5: "frufru",
+            product6: "lófarok copf",
+            product7:"póthajak U-Tip vagy I-Tip",
+            product8:"színminta Invisible tape",
+            product9:"hajápolási termékek",
             comingSoonText: "Hamarosan!"
         },
         beforeAfter:{
             title: "Előtte-Utána",
             productName: "Clip Top",
-            before: "Előtte",
-            after: "Utána"
+            before: "előtte",
+            after: "utána"
         },
         contacts:{
             title:"Elérhetőség:",
@@ -354,7 +364,7 @@ const translations = {
             braids:{
                 text:"Tépőzáras vagy masnis lófarok copfokat is készítünk, szintén megrendelésre. Különböző alkalmakra, de akár mindennapi viseletre is alkalmasak. Kínálatunkban különböző minőségű, egyenes, hullámos, göndör haj található, különböző hosszúságban és színben.\n" +
                     "\n" +
-                    "A természetes tónusoktól a L´Oreal színminta alapján elérhető színekig. A hajszálak gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
+                    "A természetes tónusoktól a L´Oréal színminta alapján elérhető színekig. A hajszálak gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
             },
             keratin:{
                 text: "Kínálatunkban keratinos vagy mikrogyűrűs véggel ellátott póthajak is elérhetők. A hajtípus, a szín vagy mellír, valamint a kívánt hossz kiválasztása után az Ön igényei szerint készítjük el a póthajat, vagy U típusú végezéssel, amely minden hajhosszabbítási technikához alkalmas.\n" +
@@ -366,6 +376,11 @@ const translations = {
                     "\n" +
                     "Kiegészül egy kaviármaszk, amely nélkülözhetetlen táplálást biztosít, védi a hajat, és biztosítja, hogy könnyen kifésülhető legyen, miközben puha és sima marad.",
             },
+            chart:{
+                title: "L'Oréal iNOA színminta",
+                imgText1: "L’Oréal iNOA színminta",
+                imgText2: "Invisible tape színminta",
+            }
         }
     }
 };

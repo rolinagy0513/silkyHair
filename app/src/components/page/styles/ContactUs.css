@@ -27,6 +27,7 @@
 
 .contact-details p {
     font-weight: 500;
+    white-space: pre-wrap;
 }
 
 .contact-details strong {

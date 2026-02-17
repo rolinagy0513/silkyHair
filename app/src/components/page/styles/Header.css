@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 20px 40px;
-    background: linear-gradient(to right, #4a3f36, #5c4e43);
+    background-color: #64564c;
     z-index: 100;
 }
 

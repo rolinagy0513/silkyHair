@@ -19,14 +19,14 @@ const ContactUs = () =>{
                     <h2>{contacts.title}</h2>
                     <div className="contact-details">
                         <p><strong>Silky Hair</strong></p>
-                        <p>Mail:Info@silkyhair.eu</p>
-                        <p>Tel: +421904 148 648</p>
+                        <p>info@silkyhair.eu</p>
+                        <p>+421&nbsp;&nbsp;904&nbsp;&nbsp;148&nbsp;&nbsp;648</p>
                         <br />
                         <p><strong>{contacts.invoice}</strong></p>
                         <p>Bono s.r.o.</p>
-                        <p>IČO: 46448736</p>
-                        <p>DIČ: 2023394138</p>
-                        <p>IČ DPH: SK2023394138</p>
+                        <p>IČO:&nbsp;&nbsp;&nbsp;46448736</p>
+                        <p>DIČ:&nbsp;&nbsp;&nbsp;2023394138</p>
+                        <p>IČ DPH:&nbsp;&nbsp;&nbsp;SK2023394138</p>
                         <p>Budatínska 12, 851 06 Bratislava</p>
                         <p>Slovakia</p>
                     </div>

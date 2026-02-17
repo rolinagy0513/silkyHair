@@ -7,28 +7,15 @@ import image1 from "../../assets/Modal/Chart/ChartModalImage1.png"
 import image2 from "../../assets/Modal/Chart/ChartModalImage2.png"
 
 import "./styles/ChartModal.css"
+import translations from "../../utility/Trsanslations.js";
 
 const ChartModal = () =>{
 
     const{isChartModalOpen, setIsChartModalOpen} = useContext(ModalContext);
     const{selectedLanguage} = useContext(LanguageContext);
 
-    let title;
-
-    if (selectedLanguage === "SK"){
-        title = "L'Oreal iNOA vzrokovník"
-    }else if (selectedLanguage === "ENG"){
-        title = "L'Oreal iNOA hair color chart";
-    }else if (selectedLanguage === "HUN"){
-        title = "L'Oreal iNOA színminta";
-    }else{
-        title = "L'Oreal iNOA vzrokovník";
-    }
-
-    const chartImages = [
-        { id: 1, src: image1, alt: "L'Oreal iNOA Chart 1" },
-        { id: 2, src: image2, alt: "L'Oreal iNOA Chart 2" },
-    ];
+    const currentTranslations = translations[selectedLanguage] || translations.SK;
+    const modalText = currentTranslations?.modal.chart || translations.SK.modal.chart;
 
     useEffect(() => {
         if (isChartModalOpen) {
@@ -54,15 +41,28 @@ const ChartModal = () =>{
 
                 <div className="ch-modal-body">
                     <div className="ch-title-container">
-                        <h2 className="ch-modal-title">{title}</h2>
+                        <h2 className="ch-modal-title">{modalText.title}</h2>
                     </div>
 
                     <div className="ch-images-container">
-                        {chartImages.map((image) => (
-                            <div key={image.id} className="ch-image-wrapper">
-                                <img src={image.src} alt={image.alt} className="ch-image" />
+
+                        <div className="ch-image-item">
+                            <div className="ch-image-wrapper">
+                                <img src={image1} alt="L'Oreal iNOA Chart 1" className="ch-image" />
                             </div>
-                        ))}
+                            <div className="ch-image-text">
+                                <p>{modalText.imgText1}</p>
+                            </div>
+                        </div>
+
+                        <div className="ch-image-item">
+                            <div className="ch-image-wrapper">
+                                <img src={image2} alt="L'Oreal iNOA Chart 2" className="ch-image" />
+                            </div>
+                            <div className="ch-image-text">
+                                <p>{modalText.imgText2}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
