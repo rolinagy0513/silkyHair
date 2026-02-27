@@ -10,7 +10,7 @@ const translations = {
                 naturalHair: "Vlasy bez ukončenia",
                 clipTop: "Clip top",
                 clipIn: "Clip in",
-                invisibleTapes: "Invisible tapes",
+                invisibleTapes: "Invisible tape",
                 bang: "Ofiny",
                 braids: "Copy na suchý zips a šnúrku",
                 keratinOrMicroringHair: "Pramene vlasov",
@@ -34,7 +34,7 @@ const translations = {
             portfolioItems: [
                 "vlasy bez ukončenia vhodné na všetky predlžovacie metódy",
                 "pramene na rôzne metódy predlžovania / keratínové Typ U, trubičkové Typ I",
-                "pásiky na našu vlastnú, špeciálne vyvinutú metódu predlžovania - (Invisible tapes)",
+                "pásiky na našu vlastnú, špeciálne vyvinutú metódu predlžovania - Invisible tapes",
                 "luxusné parochne, ofiny, tupé - Clip top, Clip in, copy, gumičky z vlasov a iné vlasové produkty",
                 "zákazkovú výrobu podľa individuálnych požiadaviek."
             ],
@@ -44,15 +44,15 @@ const translations = {
             title:"V ponuke máme dva typy vlasov: ",
             europeanTitle:"Európske panenské vlasy:",
             europeanText:"Ide o panenské vlasy, často aj detské, ktoré neboli nikdy farbené ani nijako chemicky či mechanicky upravované. Práve vďaka tomu patria medzi vlasy najvyššej kvality. Sú mimoriadne jemné, prirodzené a dokonale zachované. Sú ideálnou voľbou pre dámy s veľmi jemnými vlasmi, pretože krásne splynú s ich prirodzenou štruktúrou a pôsobia nenápadne a autenticky. Keďže neprešli farbením, vynikajú prirodzenou farebnou rozmanitosťou, vrátane jemných farebných prechodov a prirodzene svetlejších koncov, zosvetlených slnkom. Dostupné sú v rôznych prirodzených variantoch, od rovných cez vlnité až po kučeravé.",
-            russianTitle: "Ruské vlasy:",
-            russianText: "Ruské vlasy sú prirodzene husté, pevnejšie a majú rovný až jemne vlnitý charakter. Sú ideálne pre dámy, ktoré si vlasy často upravujú žehlením, fénovaním či natáčaním a zároveň pre dámy, ktoré potrebujú dodať svojim vlasom výraznejší objem. Vďaka svojej hustote a pevnejšej štruktúre vydržia veľmi dlho v krásnom stave. Ich pôvodná farba je tmavá, preto u našich dodávateľov prechádzajú veľmi zdĺhavým a šetrným procesom bielenia, po ktorom sú zafarbené do šiestich základných odtieňov. Po výbere farby zo vzorkovníka je možné ich podľa potreby ďalej tónovať alebo dofarbiť, aby dokonale ladili s prirodzeným odtieňom klientky."
+            russianTitle: "Slovanské vlasy:",
+            russianText: "Slovanské vlasy sú prirodzene husté, pevnejšie a majú rovný až jemne vlnitý charakter. Sú ideálne pre dámy, ktoré si vlasy často upravujú žehlením, fénovaním či natáčaním a zároveň pre dámy, ktoré potrebujú dodať svojim vlasom výraznejší objem. Vďaka svojej hustote a pevnejšej štruktúre vydržia veľmi dlho v krásnom stave. Ich pôvodná farba je tmavá, preto u našich dodávateľov prechádzajú veľmi zdĺhavým a šetrným procesom bielenia, po ktorom sú zafarbené do šiestich základných odtieňov. Po výbere farby zo vzorkovníka je možné ich podľa potreby ďalej tónovať alebo dofarbiť, aby dokonale ladili s prirodzeným odtieňom klientky."
         },
         products:{
             productTitle: "Produkty",
             product1: "vlasy bez ukončenia",
-            product2: "Clip Top",
-            product3: "Clip In",
-            product4: "Invisible Tapes",
+            product2: "Clip top",
+            product3: "Clip in",
+            product4: "Invisible tapes",
             product5: "ofiny",
             product6: "copy na suchý zips a šnúrku",
             product7:"pramene vlasov - keratínové alebo trubičkové spoje",
@@ -72,7 +72,7 @@ const translations = {
         },
         modal:{
             naturalHair:{
-                text: "V ponuke máme široký výber Európskych aj Ruských vlasov najvyššej kvality. Rôznych druhov, od rovných cez vlnité až po kučeravé.\n\nV rôznych dĺžkach a farbách, od prírodných odtieňov až po farbené. Všetky zväzky vlasov sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov.",
+                text: "V ponuke máme široký výber európskych aj slovanských  vlasov najvyššej kvality. Rôznych druhov, od rovných cez vlnité až po kučeravé.\n\nV rôznych dĺžkach a farbách, od prírodných odtieňov až po farbené. Všetky zväzky vlasov sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov.",
             },
             clipTop:{
                 text: "Clip top je inovatívny vlasový doplnok určený ženám, ktoré riešia rednutie alebo vypadávanie vlasov - Alopéciu v oblasti temena, no aj problémy s riedkimi a jemnými vlasmi.\n\nPomáha zakryť problematické miesta a zároveň dodáva vlasom objem a prirodzený vzhľad, pričom je priedušný, pokožka sa na hlave nepotí. Je pohodlný na nosenie, ľahko sa používa a dokonale splynie s vlastným vlasmi.\n\nVďaka nemu môžete rýchlo a bez námahy vylepšiť svoj vzhľad za pár sekúnd a cítiť sa sebavedomejšie.\n\nClip Top ponúkame v rôznych farbách a variantoch, vďaka čomu si každá žena vie vybrať to, čo jej najviac vyhovuje.\n\nPomocou nenápadných klipov sa ľahko a rýchlo aplikuje a je vyrobený z kvalitných ľudských vlasov, ktoré môžete upravovať fúkaním, žehlením aj natáčaním. Je ideálnym riešením aj v dňoch, keď chcete vyzerať upravene bez umývania vlasov.",
@@ -103,7 +103,7 @@ const translations = {
             keratin:{
                 text: "V ponuke máme aj zákazkovú výrobu vlasových prameňov určených na predlžovanie vlasov.\n" +
                     "\n" +
-                    "Po výbere typu vlasov, farby alebo melíru a požadovanej dĺžky vyhotovíme pramene na mieru presne podľa vašich potrieb, či už s I alebo s U spojom, vhodné pre všetky techniky predlžovania.\n" +
+                    "Po výbere typu vlasov, farby alebo melíru a požadovanej dĺžky, vyhotovíme pramene na mieru presne podľa vašich potrieb, či už s I alebo s U spojom, vhodné pre všetky techniky predlžovania.\n" +
                     "\n" +
                     "Pramene s ukončením sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov."
             },
@@ -131,7 +131,7 @@ const translations = {
                 naturalHair: "Natural hair",
                 clipTop: "Clip top",
                 clipIn: "Clip in",
-                invisibleTapes: "Invisible tapes",
+                invisibleTapes: "Invisible tape",
                 bang: "Bangs",
                 braids: "Braids",
                 keratinOrMicroringHair: "Keratin or microring hair",
@@ -156,7 +156,7 @@ const translations = {
             portfolioItems: [
                 "braids of hair suitable for all types of extension techniques",
                 "strands for various extension methods /keratin U-Type, microring I-Type/",
-                "tapes for our own, specially developed extension method - (Invisible tapes)",
+                "tapes for our own, specially developed extension method - Invisible tapes",
                 "luxury wigs, bangs, toupees - Clip top, Clip in, ponytail, hair tie made of hair and other hair products",
                 "custom production according to individual requirements."
             ],
@@ -166,15 +166,15 @@ const translations = {
             title: "We offer two types of hair:",
             europeanTitle: "European Virgin Hair:",
             europeanText: "European virgin hair, often children's hair, was never dyed, chemically or mechanically treated. This is why it is among the highest quality hair. It is extremely soft, natural and perfectly preserved. It is an ideal choice for clients with very fine hair, because it blends beautifully with their natural structure and looks completely unobtrusive and authentic. Since it has not been dyed, it stands out for its natural color variety, including subtle color transitions and naturally lighter ends that have been lightened by the sun. They are available in various natural variations, from straight to wavy to curly.",
-            russianTitle: "Russian Hair:",
-            russianText: "Russian hair is naturally thick, strong and straight or slightly wavy. It is ideal for women who often style their hair by ironing, blow-drying or curling and for clients who need to add more volume to their hair. Thanks to its density and firmer structure, it lasts a very long time in a beautiful condition. Its original color is dark, so our suppliers go through a very lengthy and gentle bleaching process, after which it is dyed into six basic shades. After choosing a color from the sampler, it can be further tinted or dyed as needed to perfectly match the client's natural shade."
+            russianTitle: "Slavic Hair:",
+            russianText: "Slavic hair is naturally thick, strong and straight or slightly wavy. It is ideal for women who often style their hair by ironing, blow-drying or curling and for clients who need to add more volume to their hair. Thanks to its density and firmer structure, it lasts a very long time in a beautiful condition. Its original color is dark, so our suppliers go through a very lengthy and gentle bleaching process, after which it is dyed into six basic shades. After choosing a color from the sampler, it can be further tinted or dyed as needed to perfectly match the client's natural shade."
         },
         products:{
             productTitle: "Products",
             product1: "natural hair",
-            product2: "Clip Top",
-            product3: "Clip In",
-            product4: "Invisible Tapes",
+            product2: "Clip top",
+            product3: "Clip in",
+            product4: "Invisible tapes",
             product5: "bangs",
             product6: "braids",
             product7:"keratin or microring hair",
@@ -194,7 +194,7 @@ const translations = {
         },
         modal:{
             naturalHair:{
-                text: "We offer a wide selection of European and Russian hair of various types, from straight to wavy to curly.\n\nIn various lengths and colors, from natural shades to dyed.\n\nAll hair bundles are combed from short hair, which guarantees their equal density along the entire length without thinned ends.",
+                text: "We offer a wide selection of european and slavic hair of various types, from straight to wavy to curly.\n\nIn various lengths and colors, from natural shades to dyed.\n\nAll hair bundles are combed from short hair, which guarantees their equal density along the entire length without thinned ends.",
             },
             clipTop:{
                 text: "Clip top is an innovative hair product designed for women who are dealing with thinning or hair loss, Alopecia in the scalp, as well as problems with thin and fine hair.\n\nIt helps to cover problem areas and at the same time gives hair volume and a natural look, while being breathable, the skin on the head does not sweat. It is comfortable to wear, easy to use and blends perfectly with your own hair.\n\nThanks to it, you can quickly and effortlessly improve your appearance in a few seconds and feel more confident.\n\nWe offer ClipTop in various colors and variants, so every woman can choose what suits her best.\n\nIt is easy and quick to apply using discreet clips and is made of high-quality human hair, which you can style by blowing, ironing and curling. It is also an ideal solution on days when you want to look groomed without washing your hair.",
@@ -259,7 +259,7 @@ const translations = {
                 naturalHair: "Natúr haj",
                 clipTop: "Tupé",
                 clipIn: "Csatolható haj",
-                invisibleTapes: "Invisible tapes",
+                invisibleTapes: "Invisible tape",
                 bang: "Frufru",
                 braids: "Lófarok copf",
                 keratinOrMicroringHair: "Póthajak U-tip vagy I-tip",
@@ -295,15 +295,15 @@ const translations = {
             title: "Két hajtípus van a kínálatunkban: ",
             europeanTitle: "Európai szűzhaj:",
             europeanText: "Az Európai szűzhaj vékonyszálú, gyakran gyermekhaj, amelyet soha nem festettek, illetve nem kezeltek kémiailag vagy mechanikailag. Ezért a legmagasabb minőségű hajak közé tartozik, rendkívül selymes, finom és természetes. Ideális választás a vékony hajú hölgyek számára, mert szépen beilleszkedik hajuk közé, természetes és esztétikus hatást kelt. Mivel nem festett, kiemelkedik gazdag színárnyalataival, beleértve a finom átmeneteket és a napfény által természetesen világosított hajvégeket. Különböző természetes változatokban kaphatók, az egyenestől a hullámoson át a göndörig.",
-            russianTitle: "Ázsiai haj:",
-            russianText: "Az orosz haj természetesen sűrű, erősebb szálú, egyenes vagy enyhén hullámos jellegű. Ideális olyan hölgyek számára, akik gyakran formázzák hajukat vasalással, szárítással vagy göndörítéssel. Valamint azok hölgyek számára, akik dús hatást szeretnének elérni. Dús és erősebb hajszálainak köszönhetően nagyon tartós, hosszú ideig megőrzi szépségét. Eredeti színe sötét, ezért beszállítóink által egy nagyon hosszú és kíméletes szőkítési folyamaton mennek keresztül, majd hat alapárnyalatra vannak festve. A színmintából való megfelelő szín kiválasztása után, szükség szerint tovább festhető, hogy tökéletesen illeszkedjen az ügyfél természetes hajszínéhez."
+            russianTitle: "Szláv haj:",
+            russianText: "Az szláv haj természetesen sűrű, erősebb szálú, egyenes vagy enyhén hullámos jellegű. Ideális olyan hölgyek számára, akik gyakran formázzák hajukat vasalással, szárítással vagy göndörítéssel. Valamint azok hölgyek számára, akik dús hatást szeretnének elérni. Dús és erősebb hajszálainak köszönhetően nagyon tartós, hosszú ideig megőrzi szépségét. Eredeti színe sötét, ezért beszállítóink által egy nagyon hosszú és kíméletes szőkítési folyamaton mennek keresztül, majd hat alapárnyalatra vannak festve. A színmintából való megfelelő szín kiválasztása után, szükség szerint tovább festhető, hogy tökéletesen illeszkedjen az ügyfél természetes hajszínéhez."
         },
         products:{
             productTitle: "Termékek",
             product1: "natúr haj",
             product2: "tupé",
             product3: "csatolható haj",
-            product4: "Invisible Tapes",
+            product4: "Invisible tapes",
             product5: "frufru",
             product6: "lófarok copf",
             product7:"póthajak U-Tip vagy I-Tip",
@@ -323,7 +323,7 @@ const translations = {
         },
         modal:{
             naturalHair:{
-                text: "Széles választékban kínálunk európai és orosz hajat a legmagasabb minőségben. Különböző típusokban, az egyenestől a hullámosan át a göndörig.\n\nKülönböző hosszúságban és színben, a természetes árnyalatoktól a festettekig. Minden haj gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
+                text: "Széles választékban kínálunk európai és szláv hajat a legmagasabb minőségben. Különböző típusokban, az egyenestől a hullámosan át a göndörig.\n\nKülönböző hosszúságban és színben, a természetes árnyalatoktól a festettekig. Minden haj gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
             },
             clipTop:{
                 text: "A Clip Top egy innovatív hajkiegészítő, amelyet a hajhullással, ritkullással, azaz a fejbőr alopecájával, valamint a vékony és finom hajjal küzdő hölgyek számára terveztek.\n\nSegít elfedni a problémás területeket, ugyanakkor volument és természetes megjelenést kölcsönöz a hajnak, miközben légáteresztő, a fejbőr nem izzad.\n\nViselőre kényelmes, könnyen használható, és tökéletesen illeszkedik a saját hajához. Ennek köszönhetően gyorsan és könnyedén változtathat megjelenésén néhány másodperc alatt, és magabiztosabbnak érezheti magát.\n\nA Clip Topot különböző színekben és változatokban kínáljuk, így minden hölgy kiválaszthatja a számára legmegfelelőbbet. Diszkrét csatokkal könnyen és gyorsan felhelyezhető, és kiváló minőségű emberi hajból készült, amelyet szárítással, vasalással és göndörítéssel is formázható. Ideális megoldás azokra a napokra is, amikor ápoltnak szeretne látszani hajmosás nélkül.",
