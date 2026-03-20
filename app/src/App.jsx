@@ -15,17 +15,16 @@ import ScrollAnimatedSection from "./components/page/ScrollAnimatedSection.jsx"
 import {ModalContext} from "./context/ModalContext.jsx";
 
 import NaturalHairModal from "./components/modal/NaturalHairModal.jsx";
-
 import ClipTopModal from "./components/modal/ClipTopModal.jsx";
 import BangsModal from "./components/modal/BangsModal.jsx";
 import ClipInModal from "./components/modal/ClipInModal.jsx";
 import InvisibleTapeModal from "./components/modal/InvisibleTapeModal.jsx";
 import BraidsModal from "./components/modal/BraidsModal.jsx";
 import KeratinModal from "./components/modal/KeratinModal.jsx";
-
-import "./App.css"
 import ChartModal from "./components/modal/ChartModal.jsx";
 import CosmeticsModal from "./components/modal/CosmeticsModal.jsx";
+
+import "./App.css"
 
 function App() {
 
