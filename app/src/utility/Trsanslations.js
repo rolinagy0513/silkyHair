@@ -1,7 +1,7 @@
 const translations = {
     SK: {
         menu:{
-            aboutUs: "O nás",
+            introduction: "O mne",
             hairTypes: "Typy vlasov",
             products: "Produkty",
             beforeAfter: "Pred/Po",
@@ -122,7 +122,7 @@ const translations = {
 
     ENG: {
         menu:{
-            aboutUs: "About us",
+            introduction: "About me",
             hairTypes: "Types of hair",
             products: "Products",
             beforeAfter: "Before/After",
@@ -250,7 +250,7 @@ const translations = {
 
     HUN:{
         menu:{
-            aboutUs: "Rólunk",
+            introduction: "Rólam",
             hairTypes: "Hajtípusok",
             products: "Termékek",
             beforeAfter: "Előtte/Utána",

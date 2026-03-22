@@ -100,10 +100,10 @@ const Navbar = () =>{
         <nav className="main-nav">
             <div className={`nav-container ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
                 <a
-                    href="#about"
-                    onClick={(e) => handleNavClick('about', e)}
+                    href="#introduction"
+                    onClick={(e) => handleNavClick('introduction', e)}
                 >
-                    {menu.aboutUs}
+                    {menu.introduction}
                 </a>
                 <a
                     href="#hair-types"

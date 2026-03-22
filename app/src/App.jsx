@@ -42,11 +42,12 @@ function App() {
 
             <Header/>
             <Navbar/>
-            <Introduction/>
 
-            <ScrollAnimatedSection id="about">
               <AboutUs/>
-            </ScrollAnimatedSection>
+
+              <ScrollAnimatedSection id="introduction">
+                  <Introduction/>
+              </ScrollAnimatedSection>
 
             <ScrollAnimatedSection id="hair-types">
               <HairTypes/>
