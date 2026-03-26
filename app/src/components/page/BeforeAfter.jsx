@@ -6,6 +6,8 @@ import before2 from "../../assets/Page/BeforeAfter/before2.png";
 import after2 from "../../assets/Page/BeforeAfter/after2.png";
 import before3 from "../../assets/Page/BeforeAfter/before3.png";
 import after3 from "../../assets/Page/BeforeAfter/after3.png";
+import before4 from "../../assets/Page/BeforeAfter/before4.jpg";
+import after4 from "../../assets/Page/BeforeAfter/after4.jpg";
 
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 
@@ -71,6 +73,23 @@ const BeforeAfter = () =>{
                     <div className="ba-image-container">
                         <div className="ba-image">
                             <img src={after3} alt="after1"/>
+                        </div>
+                        <p>{beforeAfter.after}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="before-after-row">
+                <div className="before-after-grid">
+                    <div className="ba-image-container">
+                        <div className="ba-image">
+                            <img src={before4} alt="before3"/>
+                        </div>
+                        <p>{beforeAfter.before}</p>
+                    </div>
+                    <div className="ba-image-container">
+                        <div className="ba-image">
+                            <img src={after4} alt="after1"/>
                         </div>
                         <p>{beforeAfter.after}</p>
                     </div>

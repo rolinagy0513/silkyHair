@@ -2,7 +2,7 @@ import {useContext, useEffect} from "react";
 
 import titleSK from "../../assets/Modal/Keratin/KeratinTitleSK.png"
 import titleENG from "../../assets/Modal/Keratin/KeratinTitleENG.png"
-import titleHUN from "../../assets/Modal/Keratin/KeratinTitleHUN.png"
+import titleHUN from "../../assets/Modal/Keratin/KeratinTitleHUN2.png"
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";

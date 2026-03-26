@@ -2,7 +2,7 @@ import React, {useContext, useEffect} from "react";
 
 import titleSK from "../../assets/Modal/NaturalHair/NaturalHairTitleSK.png";
 import titleENG from "../../assets/Modal/NaturalHair/NaturalHairTitleENG.png";
-import titleHUN from "../../assets/Modal/NaturalHair/NaturalHairTitleHUN.png"
+import titleHUN from "../../assets/Modal/NaturalHair/NaturalHairTitleHUN2.png"
 
 import product1 from "../../assets/Modal/NaturalHair/NaturalHairModalImage1.png";
 import product2 from "../../assets/Modal/NaturalHair/NaturalHairModalImage2.png";

@@ -1,7 +1,7 @@
 import React, {useContext, useEffect} from "react";
 
 import titleDual from "../../assets/Modal/ClipTop/ClipTopTitleSK-ENG.png";
-import titleHUN from "../../assets/Modal/ClipTop/ClipTopTitleHUN.png";
+import titleHUN from "../../assets/Modal/ClipTop/ClipTopTitleHUN2.png";
 
 import product1 from "../../assets/Modal/ClipTop/ClipTopModalImage1.png";
 import product2 from "../../assets/Modal/ClipTop/ClipTopModalImage2.png";
