@@ -131,7 +131,7 @@ const translations = {
                 naturalHair: "Natural hair",
                 clipTop: "Clip top",
                 clipIn: "Clip in",
-                invisibleTapes: "Invisible tape",
+                invisibleTapes: "Invisible tapes",
                 bang: "Bangs",
                 braids: "Braids",
                 keratinOrMicroringHair: "Keratin or microring hair",
@@ -258,11 +258,11 @@ const translations = {
             productTypes:{
                 naturalHair: "Natúr haj",
                 clipTop: "Tupé",
-                clipIn: "Csatolható haj",
+                clipIn: "Csatos póthaj",
                 invisibleTapes: "Invisible tape",
                 bang: "Frufru",
                 braids: "Lófarok copf",
-                keratinOrMicroringHair: "Póthajak U-tip vagy I-tip",
+                keratinOrMicroringHair: "U-tip vagy I-tip hajtincsek végződéssel",
                 chart: "Színminta",
                 cosmetics: "Hajápolási termékek"
             }
@@ -278,7 +278,7 @@ const translations = {
                 "önmagára tekint. Ezért végzem a munkám szenvedéllyel és elszántsággal.",
         },
         aboutUs: {
-            paragraph1: "A Silky Hair a legmagasabb minőségű emberi haj értékesítésére és ebből készült termékek forgalmazására specializálódott. Minden kínált haj eredeti, egészséges és gondosan kezelt, szilikonok, parabenek, keratinok vagy egyéb felületkezelések nélkül.",
+            paragraph1: "A Silky Hair a legmagasabb minőségű emberi haj értékesítésére és ebből készült termékek forgalmazására specializálódott. Minden kínált haj eredeti, egészséges és gondosan kezelt, szilikonok, parabének, keratinok vagy egyéb felületkezelések nélkül.",
             paragraph2: "Kínálatunkban 100%-ban remy emberi haj található természetes kutikulával, amely tartós, selymes és természetes megjelenést biztosít. A haj kizárólag ellenőrzött forrásból származik és szigorú ellenőrzési folyamaton megy keresztül, hogy megfeleljen a legmagasabb minőségű elvárásoknak.",
             paragraph3: "Ezért minden haj osztályozott, vagyis a hajból gondosan eltávolítottuk a rövid szálakat. Fontos számunkra a tisztességes hozzáállás és a szakértői tanácsadás, így ügyfeleink bizalmát belföldön és külföldön egyaránt élvezhetjük.",
             portfolioTitle: "Portfóliónkban a következő termékeket találja:",
@@ -301,12 +301,12 @@ const translations = {
         products:{
             productTitle: "Termékek",
             product1: "natúr haj",
-            product2: "tupé",
-            product3: "csatos haj",
+            product2: "Tupé - Clip top",
+            product3: "Csatos póthaj",
             product4: "Invisible tapes",
             product5: "frufru",
             product6: "lófarok copf",
-            product7:"póthajak U-tip vagy I-tip",
+            product7:"Hajtincsek végződéssel U-tip vagy I-tip",
             product8:"színminta Invisible tape",
             product9:"hajápolási termékek",
             comingSoonText: "Hamarosan!"
@@ -323,10 +323,10 @@ const translations = {
         },
         modal:{
             naturalHair:{
-                text: "Széles választékban kínálunk európai és szláv hajat a legmagasabb minőségben. Különböző típusokban, az egyenestől a hullámosan át a göndörig.\n\nKülönböző hosszúságban és színben, a természetes árnyalatoktól a festettekig. Minden haj gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
+                text: "Széles választékban kínálunk európai és szláv hajat a legmagasabb minőségben. Különböző típusokban, az egyenestől a hullámosan át a göndörig.\n\nKülönböző hosszúságban és színben, a természetes árnyalatoktól a festettekig. Minden haj gondosan ki van fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
             },
             clipTop:{
-                text: "A Clip Top egy innovatív hajkiegészítő, amelyet a hajhullással, ritkullással, azaz a fejbőr alopecijával, valamint a vékony és finom hajjal küzdő hölgyek számára terveztek.\n\nSegít elfedni a problémás területeket, ugyanakkor volument és természetes megjelenést kölcsönöz a hajnak, miközben légáteresztő, a fejbőr nem izzad.\n\nViselése kényelmes, könnyen használható, és tökéletesen illeszkedik a saját hajához. Ennek köszönhetően gyorsan és könnyedén változtathat megjelenésén néhány másodperc alatt, és magabiztosabbnak érezheti magát.\n\nA Clip topot különböző színekben és változatokban kínáljuk, így minden hölgy kiválaszthatja a számára legmegfelelőbbet. Diszkrét csatokkal könnyen és gyorsan felhelyezhető, és kiváló minőségű emberi hajból készült, amelyet szárítással, vasalással és göndörítéssel is formázható. Ideális megoldás azokra a napokra is, amikor ápoltnak szeretne látszani hajmosás nélkül.",
+                text: "A Clip Top egy innovatív hajkiegészítő, amelyet a hajhullással, ritkullással, azaz a fejbőr alopéciájával, valamint a vékony és finom hajjal küzdő hölgyek számára terveztek.\n\nSegít elfedni a problémás területeket, ugyanakkor volument és természetes megjelenést kölcsönöz a hajnak, miközben légáteresztő, a fejbőr nem izzad.\n\nViselése kényelmes, könnyen használható, és tökéletesen illeszkedik a saját hajához. Ennek köszönhetően gyorsan és könnyedén változtathat megjelenésén néhány másodperc alatt, és magabiztosabbnak érezheti magát.\n\nA Clip topot különböző színekben és változatokban kínáljuk, így minden hölgy kiválaszthatja a számára legmegfelelőbbet. Diszkrét csatokkal könnyen és gyorsan felhelyezhető, és kiváló minőségű emberi hajból készült, amelyet szárítással, vasalással és göndörítéssel is formázható. Ideális megoldás azokra a napokra is, amikor ápoltnak szeretne látszani hajmosás nélkül.",
             },
             clipIn:{
               text:"A csatos póthaj nagyszerű választás, ha hosszú és dús hajat szeretne elérhető áron, anélkül, hogy hosszas fodrászlátogatásra lenne szüksége.\n" +
@@ -338,11 +338,11 @@ const translations = {
                   "Válasszon a különböző színválasztékok, hajtípusok közül az egyenestől a göndörig, minden hosszúságban. A csatos póthajat a megrendelés szerint, pontosan a megrendelő számára készítjük el, és kis csatok segítségével gyorsan és egyszerűen rögzíthető, majd néhány másodperc alatt még gyorsabban levehető.",
             },
             bangs:{
-                text: "A változatosságot és az egyedi stílust kedvelő hölgyek számára frufrut kínálunk, amely könnyedén alkalmazkodik minden női frizurához.\n\nKülönböző arctípusokhoz tervezték és igény szerint lófarokba vagy bármely frizurába beilleszthető. Hosszabb változatban kapható, így egyedileg vágható és a megrendelő egyedi igényeihez igazítható. Különböző színváltozatokat kínálunk, lenövéssel vagy anélkül. Alkalmasak mindennapi viseletre, valamint alkalmi frizurafrissítésre vagy gyors stílusváltásra.\n\nKülönböző színekben és változatokban kínálunk frufrut, így minden hölgy kiválaszthatja a számára legmegfelelőbbet.\n\nDiszkrét osatokkal könnyen és gyorsan felhelyezhető. Mivel kiváló minőségű emberi hajtól készült, fújással, vasalással és göndörítéssel is formázható. Ideális megoldás azokra a napokra is, amikor hajmosás nélkül szeretne ápoltnak látszani.",
+                text: "A változatosságot és az egyedi stílust kedvelő hölgyek számára frufrut kínálunk, amely könnyedén alkalmazkodik minden női frizurához.\n\nKülönböző arctípusokhoz tervezték és igény szerint lófarokba vagy bármely frizurába beilleszthető. Hosszabb változatban kapható, így egyedileg vágható és a megrendelő egyedi igényeihez igazítható. Különböző színváltozatokat kínálunk, lenövéssel vagy anélkül. Alkalmasak mindennapi viseletre, valamint alkalmi frizurafrissítésre vagy gyors stílusváltásra.\n\nKülönböző színekben és változatokban kínálunk frufrut, így minden hölgy kiválaszthatja a számára legmegfelelőbbet.\n\nDiszkrét osatokkal könnyen és gyorsan felhelyezhető. Mivel kiváló minőségű emberi hajból készült, fújással, vasalással és göndörítéssel is formázható. Ideális megoldás azokra a napokra is, amikor hajmosás nélkül szeretne ápoltnak látszani.",
             },
             invisibleTape:{
                 text:"Bemutatjuk exkluzív újdonságunkat, az Invisible Tapes  \n" +
-                    "hajhosszabbítási módszert, amelyet a hölgyek leglényesebb  \n" +
+                    "hajhosszabbítási módszert, amelyet a hölgyek legigényesebb  \n" +
                     "elvárásai szerint fejlesztettek ki, a teljesen feltűnésmentes  \n" +
                     "illesztésekre helyezve a hangsúlyt.  \n" +
                     "\n" +
@@ -367,7 +367,7 @@ const translations = {
                     "A természetes tónusoktól a L´Oréal színminta alapján elérhető színekig. A hajszálak gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
             },
             keratin:{
-                text: "Kínálatunkban keratinos vagy mikrogyűrűs véggel ellátott póthajak is elérhetők. A hajtípus, a szín vagy melír, valamint a kívánt hossz kiválasztása után az Ön igényei szerint készítjük el a póthajat, vagy U típusú végzéssel, amely minden hajhosszabbítási technikához alkalmas.\n" +
+                text: "Kínálatunkban keratinos vagy mikrogyűrűs véggel ellátott póthajak is elérhetők. A hajtípus, a szín vagy melír, valamint a kívánt hossz kiválasztása után az Ön igényei szerint készítjük el a póthajat, vagy U típusú vagy I típusú végzéssel, amely minden hajhosszabbítási technikához alkalmas.\n" +
                     "\n" +
                     "A hajszálak gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül."
             },
@@ -377,7 +377,7 @@ const translations = {
                     "Kiegészíti egy kaviármaszk, amely nélkülözhetetlen táplálást biztosít, védi a hajat, és biztosítja, hogy könnyen kifésülhető legyen, miközben puha és selymes marad.",
             },
             chart:{
-                title: "L'Oréal iNOA színminta",
+                title: "Színminta",
                 imgText1: "L’Oréal iNOA színminta",
                 imgText2: "Invisible tape színminta",
             }

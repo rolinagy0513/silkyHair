@@ -40,31 +40,20 @@
 .ba-image {
     border: 10px solid white;
     background-color: #eae4e1;
-    height: 350px;
     margin-bottom: 15px;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     position: relative;
-}
 
-.ba-image::before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #73655a;
-    font-size: 18px;
-    font-weight: 500;
-    opacity: 0.7;
+    height: auto;
 }
 
 .ba-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 }
 
 .ba-image-container p {
@@ -74,11 +63,8 @@
     letter-spacing: 0.5px;
 }
 
-@media (max-width: 1100px) {
-    .ba-image {
-        height: 320px;
-    }
 
+@media (max-width: 1100px) {
     .before-after-section h2 {
         font-size: 56px;
     }
@@ -88,10 +74,6 @@
     .before-after-grid {
         max-width: 700px;
         gap: 30px;
-    }
-
-    .ba-image {
-        height: 300px;
     }
 
     .before-after-section h2 {
@@ -107,10 +89,6 @@
     .before-after-grid {
         max-width: 600px;
         gap: 25px;
-    }
-
-    .ba-image {
-        height: 280px;
     }
 
     .before-after-section h2 {
@@ -132,10 +110,6 @@
         gap: 20px;
     }
 
-    .ba-image {
-        height: 240px;
-    }
-
     .before-after-section h2 {
         font-size: 44px;
         margin-bottom: 40px;
@@ -151,101 +125,10 @@
     }
 }
 
-@media (max-width: 540px) {
-    .before-after-grid {
-        max-width: 500px;
-        gap: 18px;
-    }
-
-    .ba-image {
-        height: 220px;
-    }
-
-    .before-after-section h2 {
-        font-size: 40px;
-    }
-
-    .before-after-row h3 {
-        font-size: 24px;
-    }
-
-    .ba-image-container p {
-        font-size: 17px;
-    }
-}
-
-@media (max-width: 480px) {
-    .before-after-grid {
-        max-width: 450px;
-        gap: 16px;
-    }
-
-    .ba-image {
-        height: 200px;
-    }
-
-    .before-after-section h2 {
-        font-size: 38px;
-    }
-
-    .before-after-row h3 {
-        font-size: 22px;
-    }
-
-    .ba-image-container p {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 400px) {
-    .before-after-section {
-        padding: 30px 15px;
-    }
-
-    .before-after-grid {
-        max-width: 380px;
-        gap: 14px;
-    }
-
-    .ba-image {
-        height: 180px;
-    }
-
-    .before-after-section h2 {
-        font-size: 36px;
-        margin-bottom: 35px;
-    }
-
-    .before-after-row h3 {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-
-    .ba-image-container p {
-        font-size: 15px;
-    }
-}
-
 @media (max-width: 360px) {
     .before-after-grid {
         grid-template-columns: 1fr;
         max-width: 300px;
         gap: 25px;
-    }
-
-    .ba-image {
-        height: 220px;
-    }
-
-    .before-after-section h2 {
-        font-size: 32px;
-    }
-
-    .before-after-row h3 {
-        font-size: 24px;
-    }
-
-    .ba-image-container p {
-        font-size: 18px;
     }
 }
