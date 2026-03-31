@@ -8,6 +8,8 @@ import product1 from "../../assets/Modal/Bangs/BangModalImage1.png"
 import product2 from "../../assets/Modal/Bangs/BangModalImage2.png"
 import product3 from "../../assets/Modal/Bangs/BangModalImage3.png"
 import product4 from "../../assets/Modal/Bangs/BangModalImage4.png"
+import product5 from "../../assets/Modal/Bangs/BangModalImage5.jpg"
+import product6 from "../../assets/Modal/Bangs/BangModalImage6.jpg"
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
@@ -41,6 +43,8 @@ const BangsModal = () =>{
         { id: 2, src: product2, alt: "Bangs Product 2" },
         { id: 3, src: product3, alt: "Bangs Product 3" },
         { id: 4, src: product4, alt: "Bangs Product 4" },
+        { id: 5, src: product5, alt: "Bangs Product 5" },
+        { id: 6, src: product6, alt: "Bangs Product 6" },
     ];
 
     useEffect(() => {

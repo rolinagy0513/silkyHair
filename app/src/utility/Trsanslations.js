@@ -34,7 +34,7 @@ const translations = {
             portfolioItems: [
                 "vlasy bez ukončenia vhodné na všetky predlžovacie metódy",
                 "pramene na rôzne metódy predlžovania / keratínové Typ U, trubičkové Typ I",
-                "pásiky na novú, speciálne vyvinutú metódu predlžovania Invisible tapes",
+                "pásiky na novú, špeciálne vyvinutú metódu predlžovania Invisible tapes",
                 "luxusné parochne, ofiny, tupé - Clip top, Clip in, copy, gumičky z vlasov a iné vlasové produkty",
                 "zákazkovú výrobu podľa individuálnych požiadaviek."
             ],
@@ -156,7 +156,7 @@ const translations = {
             portfolioItems: [
                 "braids of hair suitable for all types of extension techniques",
                 "strands for various extension methods /keratin U-Type, microring I-Type/",
-                "tapes for our own, specially developed extension method - Invisible tapes",
+                "tapes for specially developed extension method - Invisible tapes",
                 "luxury wigs, bangs, toupees - Clip top, Clip in, ponytail, hair tie made of hair and other hair products",
                 "custom production according to individual requirements."
             ],
@@ -226,9 +226,9 @@ const translations = {
                     "The braids are combed from short hair, guaranteeing the same density along the entire length without thinned ends.",
             },
             keratin:{
-                text: "We also offer custom-made hair extensions. After  \n" +
+                text: "We also offer custom-made hair hair strands. After  \n" +
                     "selecting your hair type, color or highlights, and desired  \n" +
-                    "length, we will make custom-made hair extensions exactly  \n" +
+                    "length, we make custom-made hair hair strands exactly  \n" +
                     "according to your needs, whether with a tube or U  \n" +
                     "connection, suitable for all extension techniques.  \n" +
                     "\n" +
@@ -257,12 +257,12 @@ const translations = {
             contacts: "Elérhetőség",
             productTypes:{
                 naturalHair: "Natúr haj",
-                clipTop: "Tupé",
+                clipTop: "Tupé-Clip top",
                 clipIn: "Csatos póthaj",
-                invisibleTapes: "Invisible tape",
+                invisibleTapes: "Invisible tapes",
                 bang: "Frufru",
                 braids: "Lófarok copf",
-                keratinOrMicroringHair: "U-tip vagy I-tip hajtincsek végződéssel",
+                keratinOrMicroringHair: "Hajtincsek végződéssel U-tip vagy I-tip",
                 chart: "Színminta",
                 cosmetics: "Hajápolási termékek"
             }
@@ -285,7 +285,7 @@ const translations = {
             portfolioItems: [
                 "osztályozott natúr póthaj, mely minden hosszabbítási technika elkészítéséhez alkalmas",
                 "hajtincsek különféle hosszabbítási módszerekhez /hőillesztés U-tip, mikrogyűrű I-tip/",
-                "Invisible tapes - keratin ragasztócsíkok, saját fejlesztésű hosszabbítási módszerünkhöz",
+                "Invisible tapes - keratin ragasztócsíkok, speciális fejlesztésű módszerhez",
                 "luxus parókák, frufruk, tupék, csatos póthajak, tépőzáras vagy szalagos lófarok copfok, hajgumik és egyéb hajápolási termékek",
                 "egyedi igények szerinti gyártás."
             ],
@@ -302,11 +302,11 @@ const translations = {
             productTitle: "Termékek",
             product1: "natúr haj",
             product2: "Tupé - Clip top",
-            product3: "Csatos póthaj",
+            product3: "csatos póthaj",
             product4: "Invisible tapes",
             product5: "frufru",
             product6: "lófarok copf",
-            product7:"Hajtincsek végződéssel U-tip vagy I-tip",
+            product7:"hajtincsek végződéssel U-tip vagy I-tip",
             product8:"színminta Invisible tape",
             product9:"hajápolási termékek",
             comingSoonText: "Hamarosan!"
@@ -367,7 +367,7 @@ const translations = {
                     "A természetes tónusoktól a L´Oréal színminta alapján elérhető színekig. A hajszálak gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül.",
             },
             keratin:{
-                text: "Kínálatunkban keratinos vagy mikrogyűrűs véggel ellátott póthajak is elérhetők. A hajtípus, a szín vagy melír, valamint a kívánt hossz kiválasztása után az Ön igényei szerint készítjük el a póthajat, vagy U típusú vagy I típusú végzéssel, amely minden hajhosszabbítási technikához alkalmas.\n" +
+                text: "Kínálatunkban keratinos vagy mikrogyűrűs véggel ellátott póthajak is elérhetők. A hajtípus, a szín vagy melír, valamint a kívánt hossz kiválasztása után az Ön igényei szerint készítjük el a póthajat, U típusú vagy I típusú végzéssel, amely minden hajhosszabbítási technikához alkalmas.\n" +
                     "\n" +
                     "A hajszálak gondosan ki vannak fésülve a rövid hajtól, így a haj teljes hosszában egyenletes sűrűséget biztosítunk, elvékonyodó végek nélkül."
             },
