@@ -27,14 +27,14 @@ const InvisibleTapeModal = () => {
     const modalText = currentTranslations?.modal.invisibleTape || translations.SK.modal.invisibleTape;
 
     const productImages = [
-        { id: 1, src: product1, alt: "Invisible Tape Product 1" },
-        { id: 2, src: product2, alt: "Invisible Tape Product 2" },
-        { id: 3, src: product3, alt: "Invisible Tape Product 3" },
-        { id: 4, src: product4, alt: "Invisible Tape Product 4" },
-        { id: 5, src: product5, alt: "Invisible Tape Product 5" },
-        { id: 6, src: product6, alt: "Invisible Tape Product 6" },
-        { id: 6, src: product7, alt: "Invisible Tape Product 7" },
-        { id: 6, src: product8, alt: "Invisible Tape Product 8" },
+        { id: 1, src: product1, alt: "Invisible Tape Product 1", type: "cover" },
+        { id: 2, src: product2, alt: "Invisible Tape Product 2", type: "cover" },
+        { id: 3, src: product3, alt: "Invisible Tape Product 3", type: "cover" },
+        { id: 4, src: product4, alt: "Invisible Tape Product 4", type: "cover" },
+        { id: 5, src: product5, alt: "Invisible Tape Product 5", type: "cover" },
+        { id: 6, src: product6, alt: "Invisible Tape Product 6", type: "cover" },
+        { id: 7, src: product7, alt: "Invisible Tape Product 7", type: "contain" },
+        { id: 8, src: product8, alt: "Invisible Tape Product 8", type: "contain" },
     ];
 
 
@@ -76,7 +76,7 @@ const InvisibleTapeModal = () => {
                             {productImages.map((product) => (
                                 <div
                                     key={product.id}
-                                    className="it-grid-item"
+                                    className={`it-grid-item it-grid-item--${product.type}`}
                                 >
                                     <img src={product.src} alt={product.alt} />
                                 </div>
