@@ -54,7 +54,6 @@
     color: #fff;
     transition: all 0.2s ease;
     z-index: 10;
-
 }
 
 .it-close-button:hover {
@@ -144,9 +143,18 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Base image styles */
 .it-grid-item img {
     width: 100%;
     height: 100%;
+}
+
+/* Image type variations */
+.it-grid-item--cover img {
+    object-fit: cover;
+}
+
+.it-grid-item--contain img {
     object-fit: contain;
 }
 
@@ -205,11 +213,11 @@
     }
 
     .it-close-button {
-             top: 10px;
-             left: 10px;
-             width: 36px;
-             height: 36px;
-         }
+        top: 10px;
+        left: 10px;
+        width: 36px;
+        height: 36px;
+    }
 
     .it-title-image {
         max-height: 50px;
