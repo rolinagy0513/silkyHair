@@ -10,7 +10,7 @@ const translations = {
                 naturalHair: "Vlasy bez ukončenia",
                 clipTop: "Clip top",
                 clipIn: "Clip in",
-                invisibleTapes: "Invisible tape",
+                invisibleTapes: "Invisible tapes",
                 bang: "Ofiny",
                 braids: "Copy na suchý zips a šnúrku",
                 keratinOrMicroringHair: "Pramene vlasov",
@@ -134,7 +134,7 @@ const translations = {
                 invisibleTapes: "Invisible tapes",
                 bang: "Bangs",
                 braids: "Braids",
-                keratinOrMicroringHair: "Keratin or microring hair",
+                keratinOrMicroringHair: "Keratin or microring hair strands",
                 chart: "Hair color chart",
                 cosmetics: "Hair cosmetics"
             }
@@ -226,9 +226,9 @@ const translations = {
                     "The braids are combed from short hair, guaranteeing the same density along the entire length without thinned ends.",
             },
             keratin:{
-                text: "We also offer custom-made hair hair strands. After  \n" +
+                text: "We also offer custom-made hair strands. After  \n" +
                     "selecting your hair type, color or highlights, and desired  \n" +
-                    "length, we make custom-made hair hair strands exactly  \n" +
+                    "length, we make custom-made hair strands exactly  \n" +
                     "according to your needs, whether with a tube or U  \n" +
                     "connection, suitable for all extension techniques.  \n" +
                     "\n" +

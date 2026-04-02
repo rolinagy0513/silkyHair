@@ -4,6 +4,8 @@ import introductionSk from "../../assets/Page/Introduction/IntroductionSk.png";
 import introductionHun from "../../assets/Page/Introduction/introductionHun.png";
 import introductionEng from "../../assets/Page/Introduction/introductionEng.png";
 
+import aboutUsImage from "../../assets/Page/Other/AboutUsImage.jpg"
+
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 
 import translations from "../../utility/Trsanslations.js";
@@ -56,6 +58,7 @@ const AboutUs = () =>{
                     {about.closingText}
                 </p>
             </div>
+            <img src={aboutUsImage} alt="aboutUsImage" className="about-section-content-image"/>
         </section>
     )
 

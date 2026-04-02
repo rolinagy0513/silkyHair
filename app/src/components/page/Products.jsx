@@ -6,6 +6,7 @@ import clipIn from "../../assets/Page/Products/Cip-In.png";
 import invisibleTapes from "../../assets/Page/Products/Invisible-Tapes.png";
 import bangs from "../../assets/Page/Products/Bangs.png";
 import braids from "../../assets/Page/Products/Braids.png";
+import keratin from "../../assets/Page/Products/KeratinOrMicroringHair.jpg"
 import chart from "../../assets/Page/Products/Hair-Color-Chart.png";
 import cosmethics from "../../assets/Modal/Cosmethics/CosmethicsModalImage2.JPG"
 
@@ -64,7 +65,9 @@ const Products = () =>{
                     <h3>{products.product6}</h3>
                 </div>
                 <div className="product-card">
-                    <div className="product-image"><span className="coming-soon-text">{products.comingSoonText}</span></div>
+                    <div className="product-image">
+                        <img src={keratin} alt="keratin" />
+                    </div>
                     <h3>{products.product7}</h3>
                 </div>
                 <div className="product-card">
@@ -77,7 +80,7 @@ const Products = () =>{
                     <div className="product-image">
                         <img src={cosmethics} alt="chart" />
                     </div>
-                    <h3>{products.product8}</h3>
+                    <h3>{products.product9}</h3>
                 </div>
             </div>
         </section>

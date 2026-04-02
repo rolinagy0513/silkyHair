@@ -8,8 +8,9 @@ import product3 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage3
 import product4 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage4.png"
 import product5 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage5.png"
 import product6 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage6.png"
-import product7 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage7.png"
+import product7 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage7.jpg"
 import product8 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage8.png"
+import product9 from "../../assets/Modal/InvisibleTape/InvisibleTapesModalImage9.png"
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
@@ -35,6 +36,7 @@ const InvisibleTapeModal = () => {
         { id: 6, src: product6, alt: "Invisible Tape Product 6", type: "cover" },
         { id: 7, src: product7, alt: "Invisible Tape Product 7", type: "contain" },
         { id: 8, src: product8, alt: "Invisible Tape Product 8", type: "contain" },
+        { id: 9, src: product9, alt: "Invisible Tape Product 9", type: "contain" },
     ];
 
 

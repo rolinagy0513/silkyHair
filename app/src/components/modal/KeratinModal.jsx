@@ -4,6 +4,9 @@ import titleSK from "../../assets/Modal/Keratin/KeratinTitleSK.png"
 import titleENG from "../../assets/Modal/Keratin/KeratinTitleENG.png"
 import titleHUN from "../../assets/Modal/Keratin/KeratinTitleHUN2.png"
 
+import product1 from "../../assets/Modal/Keratin/KeratinProduct1.jpg"
+import product2 from "../../assets/Modal/Keratin/KeratinProduct2.jpg"
+
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 
@@ -18,6 +21,11 @@ const KeratinModal = () =>{
 
     const currentTranslations = translations[selectedLanguage] || translations.SK;
     const modalText = currentTranslations?.modal.keratin || translations.SK.modal.keratin;
+
+    const productImages = [
+        {id: 1, src: product1, alt: "Keratin Product 1"},
+        {id: 2, src: product2, alt: "Keratin Product 2"},
+    ]
 
     let title;
 
@@ -54,13 +62,23 @@ const KeratinModal = () =>{
                 </button>
 
                 <div className="k-modal-body">
-                    <div className="k-content-wrapper">
+                    <div className="k-left-content">
                         <div className="k-modal-title">
                             <img src={title} alt="Keratin" className="k-title-image" />
                         </div>
 
                         <div className="k-text-content">
                             <p>{modalText.text}</p>
+                        </div>
+                    </div>
+
+                    <div className="k-right-content">
+                        <div className="k-image-grid">
+                            {productImages.map((product) => (
+                                <div key={product.id} className="k-grid-item">
+                                    <img src={product.src} alt={product.alt} />
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>
