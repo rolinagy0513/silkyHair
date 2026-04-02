@@ -8,7 +8,6 @@ import translations from "../../utility/Trsanslations.js";
 const ContactUs = () =>{
 
     const {selectedLanguage} = useContext(LanguageContext);
-
     const currentTranslations = translations[selectedLanguage] || translations.SK;
     const contacts = currentTranslations?.contacts || translations.SK.contacts;
 
