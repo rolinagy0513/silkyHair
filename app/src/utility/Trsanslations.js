@@ -75,7 +75,7 @@ const translations = {
                 text: "V ponuke máme široký výber európskych aj slovanských  vlasov najvyššej kvality. Rôznych druhov, od rovných cez vlnité až po kučeravé.\n\nV rôznych dĺžkach a farbách, od prírodných odtieňov až po farbené. Všetky zväzky vlasov sú vyčesané od krátkych vlasov, čím garantujeme ich rovnakú hustotu po celej dĺžke bez stenčených koncov.",
             },
             clipTop:{
-                text: "Clip top je inovatívny vlasový doplnok určený ženám, ktoré riešia rednutie alebo vypadávanie vlasov - Alopéciu v oblasti temena, no aj problémy s riedkimi a jemnými vlasmi.\n\nPomáha zakryť problematické miesta a zároveň dodáva vlasom objem a prirodzený vzhľad, pričom je priedušný, pokožka sa na hlave nepotí. Je pohodlný na nosenie, ľahko sa používa a dokonale splynie s vlastnými vlasmi.\n\nVďaka nemu môžete rýchlo a bez námahy vylepšiť svoj vzhľad za pár sekúnd a cítiť sa sebavedomejšie.\n\nClip Top ponúkame v rôznych farbách a variantoch, vďaka čomu si každá žena vie vybrať to, čo jej najviac vyhovuje.\n\nPomocou nenápadných klipov sa ľahko a rýchlo aplikuje a je vyrobený z kvalitných ľudských vlasov, ktoré môžete upravovať fúkaním, žehlením aj natáčaním. Je ideálnym riešením aj v dňoch, keď chcete vyzerať upravene bez umývania vlasov.",
+                text: "Clip top je inovatívny vlasový doplnok určený ženám, ktoré riešia rednutie alebo vypadávanie vlasov, alopéciu v oblasti temena, no aj problémy s riedkymi a jemnými vlasmi.\n\nPomáha zakryť problematické miesta a zároveň dodáva vlasom objem a prirodzený vzhľad, pričom je priedušný, pokožka sa na hlave nepotí. Je pohodlný na nosenie, ľahko sa používa a dokonale splynie s vlastnými vlasmi.\n\nVďaka nemu môžete rýchlo a bez námahy vylepšiť svoj vzhľad za pár sekúnd a cítiť sa sebavedomejšie.\n\nClip Top ponúkame v rôznych farbách a variantoch, vďaka čomu si každá žena vie vybrať to, čo jej najviac vyhovuje.\n\nPomocou nenápadných klipov sa ľahko a rýchlo aplikuje a je vyrobený z kvalitných ľudských vlasov, ktoré môžete upravovať fúkaním, žehlením aj natáčaním. Je ideálnym riešením aj v dňoch, keď chcete vyzerať upravene bez umývania vlasov.",
             },
             clipIn:{
                 text:"Metóda clip in je skvelou voľbou, ak chcete dodať vlasom dĺžku a objem za rozumnú cenu bez dlhého sedenia u kaderníka.\n" +
@@ -115,7 +115,7 @@ const translations = {
             chart:{
                 title: "L'Oréal iNOA vzrokovník",
                 imgText1:"vzorkovník L´Oréal iNOA",
-                imgText2:"vzorkovník Invisible tape",
+                imgText2:"vzorkovník Invisible tapes",
             }
         }
     },
@@ -243,7 +243,7 @@ const translations = {
             chart:{
                 title: "L'Oréal iNOA hair color chart",
                 imgText1: "L’Oréal iNOA color chart",
-                imgText2: "Invisible tape color chart",
+                imgText2: "Invisible tapes color chart",
             }
         }
     },
@@ -379,7 +379,7 @@ const translations = {
             chart:{
                 title: "Színminta",
                 imgText1: "L’Oréal iNOA színminta",
-                imgText2: "Invisible tape színminta",
+                imgText2: "Invisible tapes színminta",
             }
         }
     }
