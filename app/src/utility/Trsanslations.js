@@ -307,7 +307,7 @@ const translations = {
             product5: "frufru",
             product6: "lófarok copf",
             product7:"hajtincsek végződéssel U-tip vagy I-tip",
-            product8:"színminta Invisible tape",
+            product8:"színminta Invisible tapes",
             product9:"hajápolási termékek",
             comingSoonText: "Hamarosan!"
         },

@@ -1,10 +1,14 @@
-import {useContext, useEffect} from "react";
+import React, {useContext, useEffect} from "react";
 
-import {ModalContext} from "../../context/ModalContext.jsx";
-import {LanguageContext} from "../../context/LanguageContext.jsx";
+import titleSK from "../../assets/Modal/Chart/ChartTitleSK.png"
+import titleHUN from "../../assets/Modal/Chart/ChartTitleHUN.png"
+import titleENG from "../../assets/Modal/Chart/ChartTitleENG.png"
 
 import image1 from "../../assets/Modal/Chart/ChartModalImage1.png"
 import image2 from "../../assets/Modal/Chart/ChartModalImage2.png"
+
+import {ModalContext} from "../../context/ModalContext.jsx";
+import {LanguageContext} from "../../context/LanguageContext.jsx";
 
 import "./styles/ChartModal.css"
 import translations from "../../utility/Trsanslations.js";
@@ -16,6 +20,18 @@ const ChartModal = () =>{
 
     const currentTranslations = translations[selectedLanguage] || translations.SK;
     const modalText = currentTranslations?.modal.chart || translations.SK.modal.chart;
+
+    let title;
+
+    if (selectedLanguage === "SK"){
+        title = titleSK;
+    }else if (selectedLanguage === "ENG"){
+        title = titleENG;
+    }else if (selectedLanguage === "HUN"){
+        title = titleHUN;
+    }else{
+        title = titleSK;
+    }
 
     useEffect(() => {
         if (isChartModalOpen) {
@@ -41,7 +57,7 @@ const ChartModal = () =>{
 
                 <div className="ch-modal-body">
                     <div className="ch-title-container">
-                        <h2 className="ch-modal-title">{modalText.title}</h2>
+                        <img src={title} alt="Color chart" className="ch-title-image" />
                     </div>
 
                     <div className="ch-images-container">

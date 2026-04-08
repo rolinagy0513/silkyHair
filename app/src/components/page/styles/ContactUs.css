@@ -4,16 +4,15 @@
 
 .contact-content {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 50-50 split */
+    grid-template-columns: 1fr 1fr;
     gap: 60px;
     max-width: 1200px;
-    margin: 0 auto;
-    align-items: center;
 }
 
 .contact-info h2 {
     font-size: 42px;
     margin-bottom: 40px;
+    margin-left: 30px;
     font-weight: 700;
     color: #5c4e43;
     letter-spacing: 1px;
@@ -21,8 +20,10 @@
 
 .contact-details {
     font-size: 18px;
+    margin-left: 30px;
     line-height: 1.8;
-    color: #4a3f36; /* Dark brown color */
+    color: #4a3f36;
+    align-items: flex-start;
 }
 
 .contact-details p {
@@ -46,6 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 30px;
 }
 
 .contact-image img {
@@ -53,7 +55,6 @@
     max-width: 300px;
     height: auto;
     border-radius: 12px;
-    /*box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);*/
     object-fit: cover;
 }
 
