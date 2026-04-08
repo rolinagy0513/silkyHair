@@ -1,9 +1,10 @@
 import contactImage from "../../assets/Page/Other/contactImage.png";
 
-import "./styles/ContactUs.css"
 import {useContext} from "react";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 import translations from "../../utility/Trsanslations.js";
+
+import "./styles/ContactUs.css"
 
 const ContactUs = () =>{
 
