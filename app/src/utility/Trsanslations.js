@@ -293,7 +293,7 @@ const translations = {
         },
         typesOfHair: {
             title: "Két hajtípus van a kínálatunkban: ",
-            europeanTitle: "Európai szűzhaj:",
+            europeanTitle: "Európai szűz haj:",
             europeanText: "Az Európai szűzhaj vékonyszálú, gyakran gyermekhaj, amelyet soha nem festettek, illetve nem kezeltek kémiailag vagy mechanikailag. Ezért a legmagasabb minőségű hajak közé tartozik, rendkívül selymes, finom és természetes. Ideális választás a vékony hajú hölgyek számára, mert szépen beilleszkedik hajuk közé, természetes és esztétikus hatást kelt. Mivel nem festett, kiemelkedik gazdag színárnyalataival, beleértve a finom átmeneteket és a napfény által természetesen világosított hajvégeket. Különböző természetes változatokban kaphatók, az egyenestől a hullámoson át a göndörig.",
             russianTitle: "Szláv haj:",
             russianText: "Az szláv haj természetesen sűrű, erősebb szálú, egyenes vagy enyhén hullámos jellegű. Ideális olyan hölgyek számára, akik gyakran formázzák hajukat vasalással, szárítással vagy göndörítéssel. Valamint azok hölgyek számára, akik dús hatást szeretnének elérni. Dús és erősebb hajszálainak köszönhetően nagyon tartós, hosszú ideig megőrzi szépségét. Eredeti színe sötét, ezért beszállítóink által egy nagyon hosszú és kíméletes szőkítési folyamaton mennek keresztül, majd hat alapárnyalatra vannak festve. A színmintából való megfelelő szín kiválasztása után, szükség szerint tovább festhető, hogy tökéletesen illeszkedjen az ügyfél természetes hajszínéhez."

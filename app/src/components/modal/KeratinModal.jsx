@@ -1,6 +1,6 @@
 import {useContext, useEffect} from "react";
 
-import titleSK from "../../assets/Modal/Keratin/KeratinTitleSK.png"
+import titleSK from "../../assets/Modal/Keratin/KeratinTitleSK2.png"
 import titleENG from "../../assets/Modal/Keratin/KeratinTitleENG2.png"
 import titleHUN from "../../assets/Modal/Keratin/KeratinTitleHUN3.png"
 
