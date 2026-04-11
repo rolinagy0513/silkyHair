@@ -59,7 +59,19 @@
     object-fit: cover;
 }
 
-/* Responsive Design */
+.contact-details a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    font-weight: 500;
+    font-size: 18px;
+    color: #4a3f36;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
 @media (max-width: 968px) {
     .contact-content {
         grid-template-columns: 1fr;

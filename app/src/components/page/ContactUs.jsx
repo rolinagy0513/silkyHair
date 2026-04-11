@@ -4,6 +4,8 @@ import {useContext} from "react";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 import translations from "../../utility/Trsanslations.js";
 
+import { FaInstagram } from "react-icons/fa";
+
 import "./styles/ContactUs.css"
 
 const ContactUs = () =>{
@@ -21,6 +23,10 @@ const ContactUs = () =>{
                         <p><strong>Silky Hair</strong></p>
                         <p>info@silkyhair.eu</p>
                         <p>+421&nbsp;&nbsp;904&nbsp;&nbsp;143&nbsp;&nbsp;548</p>
+                        <a href="https://www.instagram.com/silkyhair.eu" target="_blank" rel="noopener noreferrer">
+                            <FaInstagram />
+                            silkyhair.eu
+                        </a>
                         <br />
                         <p><strong>{contacts.invoice}</strong></p>
                         <p>Bono s.r.o.</p>
