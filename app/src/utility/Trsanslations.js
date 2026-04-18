@@ -178,7 +178,7 @@ const translations = {
             product5: "bangs",
             product6: "braids",
             product7:"keratin or microring hair",
-            product8:"hair color chart for Invisible tape",
+            product8:"hair color chart for Invisible tapes",
             product9:"hair cosmetics",
             comingSoonText: "Coming soon!"
         },
@@ -284,7 +284,7 @@ const translations = {
             portfolioTitle: "Portfóliónkban a következő termékeket találja:",
             portfolioItems: [
                 "osztályozott natúr póthaj, mely minden hosszabbítási technika elkészítéséhez alkalmas",
-                "hajtincsek különféle hosszabbítási módszerekhez /hőillesztés U-tip, mikrogyűrű I-tip/",
+                "hajtincsek különféle hosszabbítási módszerekhez U-tip, I-tip",
                 "Invisible tapes - keratin ragasztócsíkok, speciális fejlesztésű módszerhez",
                 "luxus parókák, frufruk, tupék, csatos póthajak, tépőzáras vagy szalagos lófarok copfok, hajgumik és egyéb hajápolási termékek",
                 "egyedi igények szerinti gyártás."

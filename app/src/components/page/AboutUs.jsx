@@ -4,7 +4,8 @@ import introductionSk from "../../assets/Page/Introduction/IntroductionSk.png";
 import introductionHun from "../../assets/Page/Introduction/introductionHun.png";
 import introductionEng from "../../assets/Page/Introduction/introductionEng.png";
 
-import aboutUsImage from "../../assets/Page/Other/AboutUsImage.jpg"
+import aboutUsBgImage1 from "../../assets/Page/Other/AboutUsBgImage1.png"
+import aboutUsBgImage2 from "../../assets/Page/Other/AboutUsBgImage2.png"
 
 import {LanguageContext} from "../../context/LanguageContext.jsx";
 
@@ -32,33 +33,38 @@ const AboutUs = () =>{
     }
 
     return(
-        <section id="about" className="about-section">
-            <div className="about-section-image-swg">
-                <img src={introduction} alt="introduction"/>
+        <section
+            id="about"
+            className="about-section"
+            style={{ backgroundImage: `url(${aboutUsBgImage1})` }}
+        >
+            <div className="about-section-container">
+                <div className="about-section-image-swg">
+                    <img src={introduction} alt="introduction"/>
+                </div>
+                <div className="about-section-text">
+                    <p>
+                        {about.paragraph1}
+                    </p>
+                    <p>
+                        {about.paragraph2}
+                    </p>
+                    <p>
+                        {about.paragraph3}
+                    </p>
+                    <p>
+                        {about.portfolioTitle}
+                    </p>
+                    <ul>
+                        {about.portfolioItems.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="closing-text">
+                        {about.closingText}
+                    </p>
+                </div>
             </div>
-            <div className="about-section-text">
-                <p>
-                    {about.paragraph1}
-                </p>
-                <p>
-                    {about.paragraph2}
-                </p>
-                <p>
-                    {about.paragraph3}
-                </p>
-                <p>
-                    {about.portfolioTitle}
-                </p>
-                <ul>
-                    {about.portfolioItems.map((item, index) => (
-                        <li key={index}>{item}</li>
-                    ))}
-                </ul>
-                <p className="closing-text">
-                    {about.closingText}
-                </p>
-            </div>
-            <img src={aboutUsImage} alt="aboutUsImage" className="about-section-content-image"/>
         </section>
     )
 
