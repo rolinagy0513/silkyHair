@@ -11,6 +11,7 @@ import product5 from "../../assets/Modal/ClipTop/ClipTopModalImage5.png";
 import product6 from "../../assets/Modal/ClipTop/ClipTopModalImage6.png";
 import product7 from "../../assets/Modal/ClipTop/ClipTopModaImage7.jpg"
 import product8 from "../../assets/Modal/ClipTop/CliptTopModalImage8.jpg";
+// import product8 from "../../assets/Modal/ClipTop/AH4A2874.JPG"
 
 import {ModalContext} from "../../context/ModalContext.jsx";
 import {LanguageContext} from "../../context/LanguageContext.jsx";
@@ -44,8 +45,8 @@ const ClipTopModal = () => {
         { id: 4, src: product4, alt: "Clip Top Product 4" },
         { id: 5, src: product5, alt: "Clip Top Product 5" },
         { id: 6, src: product6, alt: "Clip Top Product 6" },
-        { id: 7, src: product7, alt: "Clip Top Product 6" },
-        { id: 8, src: product8, alt: "Clip Top Product 6" },
+        { id: 7, src: product7, alt: "Clip Top Product 7" },
+        { id: 8, src: product8, alt: "Clip Top Product 8" },
     ];
 
     useEffect(() => {
