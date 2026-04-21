@@ -22,7 +22,7 @@ const translations = {
         introduction:{
             title: "Volám sa",
             text:
-                "Mojím cieľom je priniesť ľudské vlasy najvyššej kvality a produkty, ktoré pomôžu každej žene cítiť sa krásne a sebavedomo.\n" +
+                "Mojím cieľom je priniesť na trh ľudské vlasy najvyššej kvality a produkty, ktoré pomôžu každej žene cítiť sa krásne a sebavedomo.\n" +
                 "Sama viem, aké náročné je žiť s vlasmi, s ktorými nie sme spokojné a práve preto mi záleží na tom, aby každá žena našla riešenie, ktoré jej vráti úsmev a dobrý pocit zo seba.\n" +
                 "To je dôvod, pre ktorý svoju prácu robím s vášňou a odhodlaním.",
         },
@@ -34,7 +34,7 @@ const translations = {
             portfolioItems: [
                 "vlasy bez ukončenia vhodné na všetky predlžovacie metódy",
                 "pramene na rôzne metódy predlžovania / keratínové Typ U, trubičkové Typ I",
-                "pásiky na novú, špeciálne vyvinutú metódu predlžovania Invisible tapes",
+                "Invisible Tapes - špeciálne vyvinuté lepiace pásky s takmer neviditelným spojom",
                 "luxusné parochne, ofiny, tupé - Clip top, Clip in, copy, gumičky z vlasov a iné vlasové produkty",
                 "zákazkovú výrobu podľa individuálnych požiadaviek."
             ],
@@ -156,7 +156,7 @@ const translations = {
             portfolioItems: [
                 "braids of hair suitable for all types of extension techniques",
                 "strands for various extension methods /keratin U-Type, microring I-Type/",
-                "tapes for specially developed extension method - Invisible tapes",
+                "Invisible Tapes - specially developed adhesive tapes with a nearly invisible bond",
                 "luxury wigs, bangs, toupees - Clip top, Clip in, ponytail, hair tie made of hair and other hair products",
                 "custom production according to individual requirements."
             ],
@@ -285,7 +285,7 @@ const translations = {
             portfolioItems: [
                 "osztályozott natúr póthaj, mely minden hosszabbítási technika elkészítéséhez alkalmas",
                 "hajtincsek különféle hosszabbítási módszerekhez U-tip, I-tip",
-                "Invisible tapes - keratin ragasztócsíkok, speciális fejlesztésű módszerhez",
+                "Invisible tapes - speciális fejlesztésű ragasztócsíkok, szinte láthatatlan illesztéssel",
                 "luxus parókák, frufruk, tupék, csatos póthajak, tépőzáras vagy szalagos lófarok copfok, hajgumik és egyéb hajápolási termékek",
                 "egyedi igények szerinti gyártás."
             ],
