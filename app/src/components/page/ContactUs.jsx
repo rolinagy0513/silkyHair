@@ -35,7 +35,7 @@ const ContactUs = () =>{
                         <p>IČO:&nbsp;&nbsp;&nbsp;46489738</p>
                         <p>DIČ:&nbsp;&nbsp;&nbsp;2023399642</p>
                         <p>IČ DPH:&nbsp;&nbsp;&nbsp;SK2023399642</p>
-                        <p>Budatínska 12, 851 06 Bratislava, Slovakia</p>
+                        <p>Budatínska 12, 851 06 Bratislava</p>
                         <p>Slovakia</p>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import {useContext} from "react";
 
-import profile from "../../assets/Page/Other/profile2.jpg"
+import profile from "../../assets/Page/Other/profile3.png"
 import name from "../../assets/Page/Other/name.png"
 
 import {LanguageContext} from "../../context/LanguageContext.jsx";
