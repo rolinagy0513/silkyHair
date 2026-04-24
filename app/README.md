@@ -1,16 +1,41 @@
-# React + Vite
+README
+Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using React with Vite. It is a single-page application structured into reusable components for better organization and maintainability.
 
-Currently, two official plugins are available:
+Project Structure
+src/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The main source folder contains all the application code.
 
-## React Compiler
+components/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This folder contains all JSX components used across the application.
 
-## Expanding the ESLint configuration
+Components are modular and organized for clarity.
+Each folder that contains JSX components also includes a styles/ subfolder, which holds the corresponding CSS files.
+components/Modal/
+Contains components related to product modals (e.g., product detail views).
+The product menus are structured similarly to the main components but are specific to modal views.
+context/
+Holds all global state management logic using React Context.
+These contexts are wrapped around the main application inside main.jsx.
+utility/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Contains helper scripts used throughout the app:
+
+Scrolling.js – handles scrolling animations.
+Translations.js – manages translations for different languages.
+assets/
+
+Stores all image assets used in the project:
+
+Page/ – images displayed on the main page.
+Modal/ – images used in product descriptions inside modals.
+Entry Points
+App.jsx – main application component.
+main.jsx – application entry point where the app is rendered and wrapped with context providers.
+Notes
+The app follows a component-based architecture for scalability.
+Styling is organized per component to keep styles modular and maintainable.
+Utilities and contexts are separated for cleaner logic and easier updates.
